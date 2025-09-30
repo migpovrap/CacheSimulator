@@ -1,0 +1,258 @@
+=========== System Properties ===========
+Virtual address:       32 bits
+Page index:            12 bits
+DRAM address:          28 bits
+Disk address:          48 bits
+Virtual address space: 4294967296 B
+DRAM address space:    268435456 B
+Disk address space:    281474976710656 B
+Page size:             4096 B
+Total pages:           1048576
+=========================================
+* R 6ac840b2
+***** Page fault! *****
+[3] W DRAM[0]
+PTE found (VA=6ac840b2 VPN=6ac84 PA=10b2)
+[103] R DRAM[10b2]
+* W 6ac84c96
+[104] W DRAM[1c96]
+* R 6ac844df
+[105] R DRAM[14df]
+* W 6ac84024
+[106] W DRAM[1024]
+* W 6ac846fb
+[107] W DRAM[16fb]
+* W 3fcae8a
+***** Page fault! *****
+[110] W DRAM[0]
+PTE found (VA=3fcae8a VPN=3fca PA=2e8a)
+[210] W DRAM[2e8a]
+* R 262b21e6
+***** Page fault! *****
+[213] W DRAM[0]
+PTE found (VA=262b21e6 VPN=262b2 PA=31e6)
+[313] R DRAM[31e6]
+* R 262b254d
+[314] R DRAM[354d]
+* R 262b22e5
+[315] R DRAM[32e5]
+* R 262b262f
+[316] R DRAM[362f]
+* W 262b2613
+[317] W DRAM[3613]
+* W 262b277e
+[318] W DRAM[377e]
+* R 918df2a6
+***** Page fault! *****
+[321] W DRAM[0]
+PTE found (VA=918df2a6 VPN=918df PA=42a6)
+[421] R DRAM[42a6]
+* W 918df680
+[422] W DRAM[4680]
+* W 918df92c
+[423] W DRAM[492c]
+* R 918df453
+[424] R DRAM[4453]
+* R 918df1ca
+[425] R DRAM[41ca]
+* R 918dfec9
+[426] R DRAM[4ec9]
+* R d54c1da3
+***** Page fault! *****
+[429] W DRAM[0]
+PTE found (VA=d54c1da3 VPN=d54c1 PA=5da3)
+[529] R DRAM[5da3]
+* W d54c13dc
+[530] W DRAM[53dc]
+* R da72b170
+***** Page fault! *****
+[533] W DRAM[0]
+PTE found (VA=da72b170 VPN=da72b PA=6170)
+[633] R DRAM[6170]
+* W da72b147
+[634] W DRAM[6147]
+* W da72b649
+[635] W DRAM[6649]
+* R da72bbaa
+[636] R DRAM[6baa]
+* W da72be80
+[637] W DRAM[6e80]
+* R da72b844
+[638] R DRAM[6844]
+* R da72b0db
+[639] R DRAM[60db]
+* R da72bc33
+[640] R DRAM[6c33]
+* R da72be68
+[641] R DRAM[6e68]
+* W da72b4b8
+[642] W DRAM[64b8]
+* W da72bc18
+[643] W DRAM[6c18]
+* R da72b957
+[644] R DRAM[6957]
+* W b76c8b79
+***** Page fault! *****
+[647] W DRAM[0]
+PTE found (VA=b76c8b79 VPN=b76c8 PA=7b79)
+[747] W DRAM[7b79]
+* R b76c8e87
+[748] R DRAM[7e87]
+* R b76c88ba
+[749] R DRAM[78ba]
+* W b76c8258
+[750] W DRAM[7258]
+* W b76c82bb
+[751] W DRAM[72bb]
+* W b76c8bd9
+[752] W DRAM[7bd9]
+* W b76c8516
+[753] W DRAM[7516]
+* W b76c8668
+[754] W DRAM[7668]
+* R b76c8cc2
+[755] R DRAM[7cc2]
+* R b76c81da
+[756] R DRAM[71da]
+* W b76c89e9
+[757] W DRAM[79e9]
+* W b76c8a01
+[758] W DRAM[7a01]
+* R b76c8d0f
+[759] R DRAM[7d0f]
+* W b76c8c7a
+[760] W DRAM[7c7a]
+* R b76c849a
+[761] R DRAM[749a]
+* W b76c8b96
+[762] W DRAM[7b96]
+* R b76c8bb2
+[763] R DRAM[7bb2]
+* W b76c8d86
+[764] W DRAM[7d86]
+* R 5872202a
+***** Page fault! *****
+[767] W DRAM[0]
+PTE found (VA=5872202a VPN=58722 PA=802a)
+[867] R DRAM[802a]
+* W 58722893
+[868] W DRAM[8893]
+* W 58722265
+[869] W DRAM[8265]
+* R 587223b8
+[870] R DRAM[83b8]
+* R 587222ac
+[871] R DRAM[82ac]
+* W f4bfa163
+***** Page fault! *****
+[874] W DRAM[0]
+PTE found (VA=f4bfa163 VPN=f4bfa PA=9163)
+[974] W DRAM[9163]
+* W f4bfa4f2
+[975] W DRAM[94f2]
+* R f4bfa734
+[976] R DRAM[9734]
+* W f4bfaca3
+[977] W DRAM[9ca3]
+* W f4bfa709
+[978] W DRAM[9709]
+* W f4bfa709
+[979] W DRAM[9709]
+* R f4bfae6b
+[980] R DRAM[9e6b]
+* R f4bfadd9
+[981] R DRAM[9dd9]
+* R f4bfa574
+[982] R DRAM[9574]
+* R f4bfab05
+[983] R DRAM[9b05]
+* W f4bfa2da
+[984] W DRAM[92da]
+* W f4bfaff7
+[985] W DRAM[9ff7]
+* W f4bfad43
+[986] W DRAM[9d43]
+* R f4bfa494
+[987] R DRAM[9494]
+* W f4bfad51
+[988] W DRAM[9d51]
+* R f4bfacf3
+[989] R DRAM[9cf3]
+* W f4bfa356
+[990] W DRAM[9356]
+* W 9abcb9e5
+***** Page fault! *****
+[993] W DRAM[0]
+PTE found (VA=9abcb9e5 VPN=9abcb PA=a9e5)
+[1093] W DRAM[a9e5]
+* W 9abcb35f
+[1094] W DRAM[a35f]
+* R 9abcbc13
+[1095] R DRAM[ac13]
+* R 9abcb43c
+[1096] R DRAM[a43c]
+* W 9abcbbd4
+[1097] W DRAM[abd4]
+* R 9abcb0b1
+[1098] R DRAM[a0b1]
+* W 9abcba81
+[1099] W DRAM[aa81]
+* W 939cffd1
+***** Page fault! *****
+[1102] W DRAM[0]
+PTE found (VA=939cffd1 VPN=939cf PA=bfd1)
+[1202] W DRAM[bfd1]
+* R 8443bb25
+***** Page fault! *****
+[1205] W DRAM[0]
+PTE found (VA=8443bb25 VPN=8443b PA=cb25)
+[1305] R DRAM[cb25]
+* R 8443b89b
+[1306] R DRAM[c89b]
+* W 8443bb75
+[1307] W DRAM[cb75]
+* W 8443b9dc
+[1308] W DRAM[c9dc]
+* W 8443bb10
+[1309] W DRAM[cb10]
+* R 8443b7cc
+[1310] R DRAM[c7cc]
+* R 8443b771
+[1311] R DRAM[c771]
+* W 8443b457
+[1312] W DRAM[c457]
+* W 8443b9d5
+[1313] W DRAM[c9d5]
+* W 8443b700
+[1314] W DRAM[c700]
+* R 8443b0cf
+[1315] R DRAM[c0cf]
+* R 8443b2d3
+[1316] R DRAM[c2d3]
+* R 8443b105
+[1317] R DRAM[c105]
+* W 8443ba0c
+[1318] W DRAM[ca0c]
+* W 8443b053
+[1319] W DRAM[c053]
+* W 30ab9119
+***** Page fault! *****
+[1322] W DRAM[0]
+PTE found (VA=30ab9119 VPN=30ab9 PA=d119)
+[1422] W DRAM[d119]
+* R 30ab92d3
+[1423] R DRAM[d2d3]
+* W 30ab93d5
+[1424] W DRAM[d3d5]
+* W 30ab989b
+[1425] W DRAM[d89b]
+* R 30ab9ab2
+[1426] R DRAM[dab2]
+Elapsed: 1426 ns
+Total instructions executed: 100
+Total page faults: 13
+Total page evictions: 0
+Total TLB L1 hits: 87 (87.00%)
+Total TLB L2 hits: 0 (0.00%)
+Total TLB L1 invalidations: 0
+Total TLB L2 invalidations: 0

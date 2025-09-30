@@ -1,0 +1,179 @@
+=========== System Properties ===========
+Virtual address:       32 bits
+Page index:            12 bits
+DRAM address:          28 bits
+Disk address:          48 bits
+Virtual address space: 4294967296 B
+DRAM address space:    268435456 B
+Disk address space:    281474976710656 B
+Page size:             4096 B
+Total pages:           1048576
+=========================================
+* R c7855000
+***** Page fault! *****
+[3] W DRAM[0]
+PTE found (VA=c7855000 VPN=c7855 PA=1000)
+[103] R DRAM[1000]
+* R c7856000
+***** Page fault! *****
+[106] W DRAM[0]
+PTE found (VA=c7856000 VPN=c7856 PA=2000)
+[206] R DRAM[2000]
+* R c7857000
+***** Page fault! *****
+[209] W DRAM[0]
+PTE found (VA=c7857000 VPN=c7857 PA=3000)
+[309] R DRAM[3000]
+* R c7858000
+***** Page fault! *****
+[312] W DRAM[0]
+PTE found (VA=c7858000 VPN=c7858 PA=4000)
+[412] R DRAM[4000]
+* R c7859000
+***** Page fault! *****
+[415] W DRAM[0]
+PTE found (VA=c7859000 VPN=c7859 PA=5000)
+[515] R DRAM[5000]
+* R c785a000
+***** Page fault! *****
+[518] W DRAM[0]
+PTE found (VA=c785a000 VPN=c785a PA=6000)
+[618] R DRAM[6000]
+* R c785b000
+***** Page fault! *****
+[621] W DRAM[0]
+PTE found (VA=c785b000 VPN=c785b PA=7000)
+[721] R DRAM[7000]
+* R c785c000
+***** Page fault! *****
+[724] W DRAM[0]
+PTE found (VA=c785c000 VPN=c785c PA=8000)
+[824] R DRAM[8000]
+* R c785d000
+***** Page fault! *****
+[827] W DRAM[0]
+PTE found (VA=c785d000 VPN=c785d PA=9000)
+[927] R DRAM[9000]
+* R c785e000
+***** Page fault! *****
+[930] W DRAM[0]
+PTE found (VA=c785e000 VPN=c785e PA=a000)
+[1030] R DRAM[a000]
+* R c785f000
+***** Page fault! *****
+[1033] W DRAM[0]
+PTE found (VA=c785f000 VPN=c785f PA=b000)
+[1133] R DRAM[b000]
+* R c7860000
+***** Page fault! *****
+[1136] W DRAM[0]
+PTE found (VA=c7860000 VPN=c7860 PA=c000)
+[1236] R DRAM[c000]
+* R c7861000
+***** Page fault! *****
+[1239] W DRAM[0]
+PTE found (VA=c7861000 VPN=c7861 PA=d000)
+[1339] R DRAM[d000]
+* R c7862000
+***** Page fault! *****
+[1342] W DRAM[0]
+PTE found (VA=c7862000 VPN=c7862 PA=e000)
+[1442] R DRAM[e000]
+* R c7863000
+***** Page fault! *****
+[1445] W DRAM[0]
+PTE found (VA=c7863000 VPN=c7863 PA=f000)
+[1545] R DRAM[f000]
+* R c7864000
+***** Page fault! *****
+[1548] W DRAM[0]
+PTE found (VA=c7864000 VPN=c7864 PA=10000)
+[1648] R DRAM[10000]
+* R c7865000
+***** Page fault! *****
+[1651] W DRAM[0]
+PTE found (VA=c7865000 VPN=c7865 PA=11000)
+[1751] R DRAM[11000]
+* R c7866000
+***** Page fault! *****
+[1754] W DRAM[0]
+PTE found (VA=c7866000 VPN=c7866 PA=12000)
+[1854] R DRAM[12000]
+* R c7867000
+***** Page fault! *****
+[1857] W DRAM[0]
+PTE found (VA=c7867000 VPN=c7867 PA=13000)
+[1957] R DRAM[13000]
+* R c7868000
+***** Page fault! *****
+[1960] W DRAM[0]
+PTE found (VA=c7868000 VPN=c7868 PA=14000)
+[2060] R DRAM[14000]
+* R c7869000
+***** Page fault! *****
+[2063] W DRAM[0]
+PTE found (VA=c7869000 VPN=c7869 PA=15000)
+[2163] R DRAM[15000]
+* R c786a000
+***** Page fault! *****
+[2166] W DRAM[0]
+PTE found (VA=c786a000 VPN=c786a PA=16000)
+[2266] R DRAM[16000]
+* R c786b000
+***** Page fault! *****
+[2269] W DRAM[0]
+PTE found (VA=c786b000 VPN=c786b PA=17000)
+[2369] R DRAM[17000]
+* R c786c000
+***** Page fault! *****
+[2372] W DRAM[0]
+PTE found (VA=c786c000 VPN=c786c PA=18000)
+[2472] R DRAM[18000]
+* R c786d000
+***** Page fault! *****
+[2475] W DRAM[0]
+PTE found (VA=c786d000 VPN=c786d PA=19000)
+[2575] R DRAM[19000]
+* R c786e000
+***** Page fault! *****
+[2578] W DRAM[0]
+PTE found (VA=c786e000 VPN=c786e PA=1a000)
+[2678] R DRAM[1a000]
+* R c786f000
+***** Page fault! *****
+[2681] W DRAM[0]
+PTE found (VA=c786f000 VPN=c786f PA=1b000)
+[2781] R DRAM[1b000]
+* R c7870000
+***** Page fault! *****
+[2784] W DRAM[0]
+PTE found (VA=c7870000 VPN=c7870 PA=1c000)
+[2884] R DRAM[1c000]
+* R c7871000
+***** Page fault! *****
+[2887] W DRAM[0]
+PTE found (VA=c7871000 VPN=c7871 PA=1d000)
+[2987] R DRAM[1d000]
+* R c7872000
+***** Page fault! *****
+[2990] W DRAM[0]
+PTE found (VA=c7872000 VPN=c7872 PA=1e000)
+[3090] R DRAM[1e000]
+* R c7873000
+***** Page fault! *****
+[3093] W DRAM[0]
+PTE found (VA=c7873000 VPN=c7873 PA=1f000)
+[3193] R DRAM[1f000]
+* R c7874000
+***** Page fault! *****
+[3196] W DRAM[0]
+PTE found (VA=c7874000 VPN=c7874 PA=20000)
+[3296] R DRAM[20000]
+Elapsed: 3296 ns
+Total instructions executed: 32
+Total page faults: 32
+Total page evictions: 0
+Total TLB L1 hits: 0 (0.00%)
+Total TLB L2 hits: 0 (0.00%)
+Total TLB L1 invalidations: 0
+Total TLB L2 invalidations: 0
