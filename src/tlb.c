@@ -77,8 +77,8 @@ static tlb_entry_t* tlb_select_victim(tlb_entry_t* tlb, size_t tlb_size) {
   return &tlb[victim];
 }
 
-static void tlb_evict_entry(tlb_entry_t* entry) {
-  if (entry->valid && entry->dirty)
+static void tlb_evict_entry(tlb_entry_t* entry, bool write_back) {
+  if (entry->valid && entry->dirty && write_back)
     write_back_tlb_entry(entry->physical_page_number << PAGE_SIZE_BITS);
   entry->valid = false;
   entry->dirty = false;
@@ -91,8 +91,15 @@ void tlb_invalidate(va_t virtual_page_number) {
   increment_time(TLB_L1_LATENCY_NS);
   tlb_entry_t* entry = tlb_lookup(tlb_l1, TLB_L1_SIZE, virtual_page_number);
   if (entry) {
-    entry->valid = false;
+    tlb_evict_entry(entry, false);
     tlb_l1_invalidations++;
+  }
+
+  increment_time(TLB_L2_LATENCY_NS);
+  entry = tlb_lookup(tlb_l2, TLB_L2_SIZE, virtual_page_number);
+  if (entry) {
+    tlb_evict_entry(entry, true);
+    tlb_l2_invalidations++;
   }
 }
 
@@ -112,18 +119,40 @@ pa_dram_t tlb_translate(va_t virtual_address, op_t op) {
   }
 
   tlb_l1_misses++;
+  increment_time(TLB_L2_LATENCY_NS);
+  entry = tlb_lookup(tlb_l2, TLB_L2_SIZE, virtual_page_number);
+  if (entry) {
+    tlb_l2_hits++;
+    if (op == OP_WRITE)
+      entry->dirty = true;
+    entry->last_access = get_time();
+
+    pa_dram_t physical_page_number = entry->physical_page_number;
+    pa_dram_t physical_address = (physical_page_number << PAGE_SIZE_BITS) | offset;
+
+    tlb_entry_t* l1_entry = tlb_select_victim(tlb_l1, TLB_L1_SIZE);
+    if (l1_entry->valid)
+      tlb_evict_entry(l1_entry, false);
+
+    tlb_store_entry(l1_entry, virtual_page_number, physical_page_number, entry->dirty);
+    return physical_address;
+  }
+
+  tlb_l2_misses++;
   pa_dram_t physical_address = page_table_translate(virtual_address, op);
   pa_dram_t physical_page_number = physical_address >> PAGE_SIZE_BITS;
+  bool dirty = (op == OP_WRITE);
 
-  entry = tlb_select_victim(tlb_l1, TLB_L1_SIZE);
-  if (entry->valid)
-    tlb_evict_entry(entry);
+  tlb_entry_t* l2_entry = tlb_select_victim(tlb_l2, TLB_L2_SIZE);
+  if (l2_entry->valid)
+    tlb_evict_entry(l2_entry, true);
 
-  entry->valid = true;
-  entry->dirty = (op == OP_WRITE);
-  entry->virtual_page_number = virtual_page_number;
-  entry->physical_page_number = physical_page_number;
-  entry->last_access = get_time();
+  tlb_store_entry(l2_entry, virtual_page_number, physical_page_number, dirty);
 
+  tlb_entry_t* l1_entry = tlb_select_victim(tlb_l1, TLB_L1_SIZE);
+  if (l1_entry->valid)
+    tlb_evict_entry(l1_entry, false);
+
+  tlb_store_entry(l1_entry, virtual_page_number, physical_page_number, dirty);
   return physical_address;
 }
