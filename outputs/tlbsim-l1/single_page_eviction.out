@@ -131068,10 +131068,10 @@
 [6618934] R DRAM[fffe000]
 [6618935] W DRAM[0]
 [6619035] R DRAM[ffff000]
-[6619036] R DRAM[0]
-[6619136] W DRAM[0]
-[6619236] R DRAM[0]
-Elapsed: 6619236 ns
+[6619037] R DRAM[0]
+[6619137] W DRAM[0]
+[6619237] R DRAM[0]
+Elapsed: 6619237 ns
 Total instructions executed: 65536
 Total page faults: 65536
 Total page evictions: 1

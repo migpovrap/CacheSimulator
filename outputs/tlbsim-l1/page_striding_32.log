@@ -13,161 +13,193 @@ Total pages:           1048576
 ***** Page fault! *****
 [1] W DRAM[0]
 PTE found (VA=c7855000 VPN=c7855 PA=1000)
+Evicting TLB L1 entry i=0 VPN=0 PPN=0 valid=0 dirty=0...
 [101] R DRAM[1000]
 * R c7856000
 ***** Page fault! *****
 [102] W DRAM[0]
 PTE found (VA=c7856000 VPN=c7856 PA=2000)
+Evicting TLB L1 entry i=1 VPN=0 PPN=0 valid=0 dirty=0...
 [202] R DRAM[2000]
 * R c7857000
 ***** Page fault! *****
 [203] W DRAM[0]
 PTE found (VA=c7857000 VPN=c7857 PA=3000)
+Evicting TLB L1 entry i=2 VPN=0 PPN=0 valid=0 dirty=0...
 [303] R DRAM[3000]
 * R c7858000
 ***** Page fault! *****
 [304] W DRAM[0]
 PTE found (VA=c7858000 VPN=c7858 PA=4000)
+Evicting TLB L1 entry i=3 VPN=0 PPN=0 valid=0 dirty=0...
 [404] R DRAM[4000]
 * R c7859000
 ***** Page fault! *****
 [405] W DRAM[0]
 PTE found (VA=c7859000 VPN=c7859 PA=5000)
+Evicting TLB L1 entry i=4 VPN=0 PPN=0 valid=0 dirty=0...
 [505] R DRAM[5000]
 * R c785a000
 ***** Page fault! *****
 [506] W DRAM[0]
 PTE found (VA=c785a000 VPN=c785a PA=6000)
+Evicting TLB L1 entry i=5 VPN=0 PPN=0 valid=0 dirty=0...
 [606] R DRAM[6000]
 * R c785b000
 ***** Page fault! *****
 [607] W DRAM[0]
 PTE found (VA=c785b000 VPN=c785b PA=7000)
+Evicting TLB L1 entry i=6 VPN=0 PPN=0 valid=0 dirty=0...
 [707] R DRAM[7000]
 * R c785c000
 ***** Page fault! *****
 [708] W DRAM[0]
 PTE found (VA=c785c000 VPN=c785c PA=8000)
+Evicting TLB L1 entry i=7 VPN=0 PPN=0 valid=0 dirty=0...
 [808] R DRAM[8000]
 * R c785d000
 ***** Page fault! *****
 [809] W DRAM[0]
 PTE found (VA=c785d000 VPN=c785d PA=9000)
+Evicting TLB L1 entry i=8 VPN=0 PPN=0 valid=0 dirty=0...
 [909] R DRAM[9000]
 * R c785e000
 ***** Page fault! *****
 [910] W DRAM[0]
 PTE found (VA=c785e000 VPN=c785e PA=a000)
+Evicting TLB L1 entry i=9 VPN=0 PPN=0 valid=0 dirty=0...
 [1010] R DRAM[a000]
 * R c785f000
 ***** Page fault! *****
 [1011] W DRAM[0]
 PTE found (VA=c785f000 VPN=c785f PA=b000)
+Evicting TLB L1 entry i=10 VPN=0 PPN=0 valid=0 dirty=0...
 [1111] R DRAM[b000]
 * R c7860000
 ***** Page fault! *****
 [1112] W DRAM[0]
 PTE found (VA=c7860000 VPN=c7860 PA=c000)
+Evicting TLB L1 entry i=11 VPN=0 PPN=0 valid=0 dirty=0...
 [1212] R DRAM[c000]
 * R c7861000
 ***** Page fault! *****
 [1213] W DRAM[0]
 PTE found (VA=c7861000 VPN=c7861 PA=d000)
+Evicting TLB L1 entry i=12 VPN=0 PPN=0 valid=0 dirty=0...
 [1313] R DRAM[d000]
 * R c7862000
 ***** Page fault! *****
 [1314] W DRAM[0]
 PTE found (VA=c7862000 VPN=c7862 PA=e000)
+Evicting TLB L1 entry i=13 VPN=0 PPN=0 valid=0 dirty=0...
 [1414] R DRAM[e000]
 * R c7863000
 ***** Page fault! *****
 [1415] W DRAM[0]
 PTE found (VA=c7863000 VPN=c7863 PA=f000)
+Evicting TLB L1 entry i=14 VPN=0 PPN=0 valid=0 dirty=0...
 [1515] R DRAM[f000]
 * R c7864000
 ***** Page fault! *****
 [1516] W DRAM[0]
 PTE found (VA=c7864000 VPN=c7864 PA=10000)
+Evicting TLB L1 entry i=15 VPN=0 PPN=0 valid=0 dirty=0...
 [1616] R DRAM[10000]
 * R c7865000
 ***** Page fault! *****
 [1617] W DRAM[0]
 PTE found (VA=c7865000 VPN=c7865 PA=11000)
+Evicting TLB L1 entry i=16 VPN=0 PPN=0 valid=0 dirty=0...
 [1717] R DRAM[11000]
 * R c7866000
 ***** Page fault! *****
 [1718] W DRAM[0]
 PTE found (VA=c7866000 VPN=c7866 PA=12000)
+Evicting TLB L1 entry i=17 VPN=0 PPN=0 valid=0 dirty=0...
 [1818] R DRAM[12000]
 * R c7867000
 ***** Page fault! *****
 [1819] W DRAM[0]
 PTE found (VA=c7867000 VPN=c7867 PA=13000)
+Evicting TLB L1 entry i=18 VPN=0 PPN=0 valid=0 dirty=0...
 [1919] R DRAM[13000]
 * R c7868000
 ***** Page fault! *****
 [1920] W DRAM[0]
 PTE found (VA=c7868000 VPN=c7868 PA=14000)
+Evicting TLB L1 entry i=19 VPN=0 PPN=0 valid=0 dirty=0...
 [2020] R DRAM[14000]
 * R c7869000
 ***** Page fault! *****
 [2021] W DRAM[0]
 PTE found (VA=c7869000 VPN=c7869 PA=15000)
+Evicting TLB L1 entry i=20 VPN=0 PPN=0 valid=0 dirty=0...
 [2121] R DRAM[15000]
 * R c786a000
 ***** Page fault! *****
 [2122] W DRAM[0]
 PTE found (VA=c786a000 VPN=c786a PA=16000)
+Evicting TLB L1 entry i=21 VPN=0 PPN=0 valid=0 dirty=0...
 [2222] R DRAM[16000]
 * R c786b000
 ***** Page fault! *****
 [2223] W DRAM[0]
 PTE found (VA=c786b000 VPN=c786b PA=17000)
+Evicting TLB L1 entry i=22 VPN=0 PPN=0 valid=0 dirty=0...
 [2323] R DRAM[17000]
 * R c786c000
 ***** Page fault! *****
 [2324] W DRAM[0]
 PTE found (VA=c786c000 VPN=c786c PA=18000)
+Evicting TLB L1 entry i=23 VPN=0 PPN=0 valid=0 dirty=0...
 [2424] R DRAM[18000]
 * R c786d000
 ***** Page fault! *****
 [2425] W DRAM[0]
 PTE found (VA=c786d000 VPN=c786d PA=19000)
+Evicting TLB L1 entry i=24 VPN=0 PPN=0 valid=0 dirty=0...
 [2525] R DRAM[19000]
 * R c786e000
 ***** Page fault! *****
 [2526] W DRAM[0]
 PTE found (VA=c786e000 VPN=c786e PA=1a000)
+Evicting TLB L1 entry i=25 VPN=0 PPN=0 valid=0 dirty=0...
 [2626] R DRAM[1a000]
 * R c786f000
 ***** Page fault! *****
 [2627] W DRAM[0]
 PTE found (VA=c786f000 VPN=c786f PA=1b000)
+Evicting TLB L1 entry i=26 VPN=0 PPN=0 valid=0 dirty=0...
 [2727] R DRAM[1b000]
 * R c7870000
 ***** Page fault! *****
 [2728] W DRAM[0]
 PTE found (VA=c7870000 VPN=c7870 PA=1c000)
+Evicting TLB L1 entry i=27 VPN=0 PPN=0 valid=0 dirty=0...
 [2828] R DRAM[1c000]
 * R c7871000
 ***** Page fault! *****
 [2829] W DRAM[0]
 PTE found (VA=c7871000 VPN=c7871 PA=1d000)
+Evicting TLB L1 entry i=28 VPN=0 PPN=0 valid=0 dirty=0...
 [2929] R DRAM[1d000]
 * R c7872000
 ***** Page fault! *****
 [2930] W DRAM[0]
 PTE found (VA=c7872000 VPN=c7872 PA=1e000)
+Evicting TLB L1 entry i=29 VPN=0 PPN=0 valid=0 dirty=0...
 [3030] R DRAM[1e000]
 * R c7873000
 ***** Page fault! *****
 [3031] W DRAM[0]
 PTE found (VA=c7873000 VPN=c7873 PA=1f000)
+Evicting TLB L1 entry i=30 VPN=0 PPN=0 valid=0 dirty=0...
 [3131] R DRAM[1f000]
 * R c7874000
 ***** Page fault! *****
 [3132] W DRAM[0]
 PTE found (VA=c7874000 VPN=c7874 PA=20000)
+Evicting TLB L1 entry i=31 VPN=0 PPN=0 valid=0 dirty=0...
 [3232] R DRAM[20000]
 Elapsed: 3232 ns
 Total instructions executed: 32

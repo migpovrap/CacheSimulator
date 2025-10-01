@@ -13,642 +13,743 @@ Total pages:           1048576
 ***** Page fault! *****
 [1] W DRAM[0]
 PTE found (VA=0 VPN=0 PA=1000)
+Evicting TLB L1 entry i=0 VPN=0 PPN=0 valid=0 dirty=0...
 [101] W DRAM[1000]
 * W 1000
 ***** Page fault! *****
 [102] W DRAM[0]
 PTE found (VA=1000 VPN=1 PA=2000)
+Evicting TLB L1 entry i=1 VPN=0 PPN=0 valid=0 dirty=0...
 [202] W DRAM[2000]
 * W 2000
 ***** Page fault! *****
 [203] W DRAM[0]
 PTE found (VA=2000 VPN=2 PA=3000)
+Evicting TLB L1 entry i=2 VPN=0 PPN=0 valid=0 dirty=0...
 [303] W DRAM[3000]
 * W 3000
 ***** Page fault! *****
 [304] W DRAM[0]
 PTE found (VA=3000 VPN=3 PA=4000)
+Evicting TLB L1 entry i=3 VPN=0 PPN=0 valid=0 dirty=0...
 [404] W DRAM[4000]
 * W 4000
 ***** Page fault! *****
 [405] W DRAM[0]
 PTE found (VA=4000 VPN=4 PA=5000)
+Evicting TLB L1 entry i=4 VPN=0 PPN=0 valid=0 dirty=0...
 [505] W DRAM[5000]
 * W 5000
 ***** Page fault! *****
 [506] W DRAM[0]
 PTE found (VA=5000 VPN=5 PA=6000)
+Evicting TLB L1 entry i=5 VPN=0 PPN=0 valid=0 dirty=0...
 [606] W DRAM[6000]
 * W 6000
 ***** Page fault! *****
 [607] W DRAM[0]
 PTE found (VA=6000 VPN=6 PA=7000)
+Evicting TLB L1 entry i=6 VPN=0 PPN=0 valid=0 dirty=0...
 [707] W DRAM[7000]
 * W 7000
 ***** Page fault! *****
 [708] W DRAM[0]
 PTE found (VA=7000 VPN=7 PA=8000)
+Evicting TLB L1 entry i=7 VPN=0 PPN=0 valid=0 dirty=0...
 [808] W DRAM[8000]
 * W 8000
 ***** Page fault! *****
 [809] W DRAM[0]
 PTE found (VA=8000 VPN=8 PA=9000)
+Evicting TLB L1 entry i=8 VPN=0 PPN=0 valid=0 dirty=0...
 [909] W DRAM[9000]
 * W 9000
 ***** Page fault! *****
 [910] W DRAM[0]
 PTE found (VA=9000 VPN=9 PA=a000)
+Evicting TLB L1 entry i=9 VPN=0 PPN=0 valid=0 dirty=0...
 [1010] W DRAM[a000]
 * W a000
 ***** Page fault! *****
 [1011] W DRAM[0]
 PTE found (VA=a000 VPN=a PA=b000)
+Evicting TLB L1 entry i=10 VPN=0 PPN=0 valid=0 dirty=0...
 [1111] W DRAM[b000]
 * W b000
 ***** Page fault! *****
 [1112] W DRAM[0]
 PTE found (VA=b000 VPN=b PA=c000)
+Evicting TLB L1 entry i=11 VPN=0 PPN=0 valid=0 dirty=0...
 [1212] W DRAM[c000]
 * W c000
 ***** Page fault! *****
 [1213] W DRAM[0]
 PTE found (VA=c000 VPN=c PA=d000)
+Evicting TLB L1 entry i=12 VPN=0 PPN=0 valid=0 dirty=0...
 [1313] W DRAM[d000]
 * W d000
 ***** Page fault! *****
 [1314] W DRAM[0]
 PTE found (VA=d000 VPN=d PA=e000)
+Evicting TLB L1 entry i=13 VPN=0 PPN=0 valid=0 dirty=0...
 [1414] W DRAM[e000]
 * W e000
 ***** Page fault! *****
 [1415] W DRAM[0]
 PTE found (VA=e000 VPN=e PA=f000)
+Evicting TLB L1 entry i=14 VPN=0 PPN=0 valid=0 dirty=0...
 [1515] W DRAM[f000]
 * W f000
 ***** Page fault! *****
 [1516] W DRAM[0]
 PTE found (VA=f000 VPN=f PA=10000)
+Evicting TLB L1 entry i=15 VPN=0 PPN=0 valid=0 dirty=0...
 [1616] W DRAM[10000]
 * W 10000
 ***** Page fault! *****
 [1617] W DRAM[0]
 PTE found (VA=10000 VPN=10 PA=11000)
+Evicting TLB L1 entry i=16 VPN=0 PPN=0 valid=0 dirty=0...
 [1717] W DRAM[11000]
 * W 11000
 ***** Page fault! *****
 [1718] W DRAM[0]
 PTE found (VA=11000 VPN=11 PA=12000)
+Evicting TLB L1 entry i=17 VPN=0 PPN=0 valid=0 dirty=0...
 [1818] W DRAM[12000]
 * W 12000
 ***** Page fault! *****
 [1819] W DRAM[0]
 PTE found (VA=12000 VPN=12 PA=13000)
+Evicting TLB L1 entry i=18 VPN=0 PPN=0 valid=0 dirty=0...
 [1919] W DRAM[13000]
 * W 13000
 ***** Page fault! *****
 [1920] W DRAM[0]
 PTE found (VA=13000 VPN=13 PA=14000)
+Evicting TLB L1 entry i=19 VPN=0 PPN=0 valid=0 dirty=0...
 [2020] W DRAM[14000]
 * W 14000
 ***** Page fault! *****
 [2021] W DRAM[0]
 PTE found (VA=14000 VPN=14 PA=15000)
+Evicting TLB L1 entry i=20 VPN=0 PPN=0 valid=0 dirty=0...
 [2121] W DRAM[15000]
 * W 15000
 ***** Page fault! *****
 [2122] W DRAM[0]
 PTE found (VA=15000 VPN=15 PA=16000)
+Evicting TLB L1 entry i=21 VPN=0 PPN=0 valid=0 dirty=0...
 [2222] W DRAM[16000]
 * W 16000
 ***** Page fault! *****
 [2223] W DRAM[0]
 PTE found (VA=16000 VPN=16 PA=17000)
+Evicting TLB L1 entry i=22 VPN=0 PPN=0 valid=0 dirty=0...
 [2323] W DRAM[17000]
 * W 17000
 ***** Page fault! *****
 [2324] W DRAM[0]
 PTE found (VA=17000 VPN=17 PA=18000)
+Evicting TLB L1 entry i=23 VPN=0 PPN=0 valid=0 dirty=0...
 [2424] W DRAM[18000]
 * W 18000
 ***** Page fault! *****
 [2425] W DRAM[0]
 PTE found (VA=18000 VPN=18 PA=19000)
+Evicting TLB L1 entry i=24 VPN=0 PPN=0 valid=0 dirty=0...
 [2525] W DRAM[19000]
 * W 19000
 ***** Page fault! *****
 [2526] W DRAM[0]
 PTE found (VA=19000 VPN=19 PA=1a000)
+Evicting TLB L1 entry i=25 VPN=0 PPN=0 valid=0 dirty=0...
 [2626] W DRAM[1a000]
 * W 1a000
 ***** Page fault! *****
 [2627] W DRAM[0]
 PTE found (VA=1a000 VPN=1a PA=1b000)
+Evicting TLB L1 entry i=26 VPN=0 PPN=0 valid=0 dirty=0...
 [2727] W DRAM[1b000]
 * W 1b000
 ***** Page fault! *****
 [2728] W DRAM[0]
 PTE found (VA=1b000 VPN=1b PA=1c000)
+Evicting TLB L1 entry i=27 VPN=0 PPN=0 valid=0 dirty=0...
 [2828] W DRAM[1c000]
 * W 1c000
 ***** Page fault! *****
 [2829] W DRAM[0]
 PTE found (VA=1c000 VPN=1c PA=1d000)
+Evicting TLB L1 entry i=28 VPN=0 PPN=0 valid=0 dirty=0...
 [2929] W DRAM[1d000]
 * W 1d000
 ***** Page fault! *****
 [2930] W DRAM[0]
 PTE found (VA=1d000 VPN=1d PA=1e000)
+Evicting TLB L1 entry i=29 VPN=0 PPN=0 valid=0 dirty=0...
 [3030] W DRAM[1e000]
 * W 1e000
 ***** Page fault! *****
 [3031] W DRAM[0]
 PTE found (VA=1e000 VPN=1e PA=1f000)
+Evicting TLB L1 entry i=30 VPN=0 PPN=0 valid=0 dirty=0...
 [3131] W DRAM[1f000]
 * W 1f000
 ***** Page fault! *****
 [3132] W DRAM[0]
 PTE found (VA=1f000 VPN=1f PA=20000)
+Evicting TLB L1 entry i=31 VPN=0 PPN=0 valid=0 dirty=0...
 [3232] W DRAM[20000]
 * W 20000
 ***** Page fault! *****
 [3233] W DRAM[0]
 PTE found (VA=20000 VPN=20 PA=21000)
-***** TLB L1 write back VPN=0 *****
+Evicting TLB L1 entry i=0 VPN=0 PPN=1 valid=1 dirty=1...
+***** TLB L1 write back *****
 [3333] W DRAM[1000]
 [3433] W DRAM[21000]
 * W 21000
 ***** Page fault! *****
 [3434] W DRAM[0]
 PTE found (VA=21000 VPN=21 PA=22000)
-***** TLB L1 write back VPN=1 *****
+Evicting TLB L1 entry i=1 VPN=1 PPN=2 valid=1 dirty=1...
+***** TLB L1 write back *****
 [3534] W DRAM[2000]
 [3634] W DRAM[22000]
 * W 22000
 ***** Page fault! *****
 [3635] W DRAM[0]
 PTE found (VA=22000 VPN=22 PA=23000)
-***** TLB L1 write back VPN=2 *****
+Evicting TLB L1 entry i=2 VPN=2 PPN=3 valid=1 dirty=1...
+***** TLB L1 write back *****
 [3735] W DRAM[3000]
 [3835] W DRAM[23000]
 * W 23000
 ***** Page fault! *****
 [3836] W DRAM[0]
 PTE found (VA=23000 VPN=23 PA=24000)
-***** TLB L1 write back VPN=3 *****
+Evicting TLB L1 entry i=3 VPN=3 PPN=4 valid=1 dirty=1...
+***** TLB L1 write back *****
 [3936] W DRAM[4000]
 [4036] W DRAM[24000]
 * W 24000
 ***** Page fault! *****
 [4037] W DRAM[0]
 PTE found (VA=24000 VPN=24 PA=25000)
-***** TLB L1 write back VPN=4 *****
+Evicting TLB L1 entry i=4 VPN=4 PPN=5 valid=1 dirty=1...
+***** TLB L1 write back *****
 [4137] W DRAM[5000]
 [4237] W DRAM[25000]
 * W 25000
 ***** Page fault! *****
 [4238] W DRAM[0]
 PTE found (VA=25000 VPN=25 PA=26000)
-***** TLB L1 write back VPN=5 *****
+Evicting TLB L1 entry i=5 VPN=5 PPN=6 valid=1 dirty=1...
+***** TLB L1 write back *****
 [4338] W DRAM[6000]
 [4438] W DRAM[26000]
 * W 26000
 ***** Page fault! *****
 [4439] W DRAM[0]
 PTE found (VA=26000 VPN=26 PA=27000)
-***** TLB L1 write back VPN=6 *****
+Evicting TLB L1 entry i=6 VPN=6 PPN=7 valid=1 dirty=1...
+***** TLB L1 write back *****
 [4539] W DRAM[7000]
 [4639] W DRAM[27000]
 * W 27000
 ***** Page fault! *****
 [4640] W DRAM[0]
 PTE found (VA=27000 VPN=27 PA=28000)
-***** TLB L1 write back VPN=7 *****
+Evicting TLB L1 entry i=7 VPN=7 PPN=8 valid=1 dirty=1...
+***** TLB L1 write back *****
 [4740] W DRAM[8000]
 [4840] W DRAM[28000]
 * W 28000
 ***** Page fault! *****
 [4841] W DRAM[0]
 PTE found (VA=28000 VPN=28 PA=29000)
-***** TLB L1 write back VPN=8 *****
+Evicting TLB L1 entry i=8 VPN=8 PPN=9 valid=1 dirty=1...
+***** TLB L1 write back *****
 [4941] W DRAM[9000]
 [5041] W DRAM[29000]
 * W 29000
 ***** Page fault! *****
 [5042] W DRAM[0]
 PTE found (VA=29000 VPN=29 PA=2a000)
-***** TLB L1 write back VPN=9 *****
+Evicting TLB L1 entry i=9 VPN=9 PPN=a valid=1 dirty=1...
+***** TLB L1 write back *****
 [5142] W DRAM[a000]
 [5242] W DRAM[2a000]
 * W 2a000
 ***** Page fault! *****
 [5243] W DRAM[0]
 PTE found (VA=2a000 VPN=2a PA=2b000)
-***** TLB L1 write back VPN=a *****
+Evicting TLB L1 entry i=10 VPN=a PPN=b valid=1 dirty=1...
+***** TLB L1 write back *****
 [5343] W DRAM[b000]
 [5443] W DRAM[2b000]
 * W 2b000
 ***** Page fault! *****
 [5444] W DRAM[0]
 PTE found (VA=2b000 VPN=2b PA=2c000)
-***** TLB L1 write back VPN=b *****
+Evicting TLB L1 entry i=11 VPN=b PPN=c valid=1 dirty=1...
+***** TLB L1 write back *****
 [5544] W DRAM[c000]
 [5644] W DRAM[2c000]
 * W 2c000
 ***** Page fault! *****
 [5645] W DRAM[0]
 PTE found (VA=2c000 VPN=2c PA=2d000)
-***** TLB L1 write back VPN=c *****
+Evicting TLB L1 entry i=12 VPN=c PPN=d valid=1 dirty=1...
+***** TLB L1 write back *****
 [5745] W DRAM[d000]
 [5845] W DRAM[2d000]
 * W 2d000
 ***** Page fault! *****
 [5846] W DRAM[0]
 PTE found (VA=2d000 VPN=2d PA=2e000)
-***** TLB L1 write back VPN=d *****
+Evicting TLB L1 entry i=13 VPN=d PPN=e valid=1 dirty=1...
+***** TLB L1 write back *****
 [5946] W DRAM[e000]
 [6046] W DRAM[2e000]
 * W 2e000
 ***** Page fault! *****
 [6047] W DRAM[0]
 PTE found (VA=2e000 VPN=2e PA=2f000)
-***** TLB L1 write back VPN=e *****
+Evicting TLB L1 entry i=14 VPN=e PPN=f valid=1 dirty=1...
+***** TLB L1 write back *****
 [6147] W DRAM[f000]
 [6247] W DRAM[2f000]
 * W 2f000
 ***** Page fault! *****
 [6248] W DRAM[0]
 PTE found (VA=2f000 VPN=2f PA=30000)
-***** TLB L1 write back VPN=f *****
+Evicting TLB L1 entry i=15 VPN=f PPN=10 valid=1 dirty=1...
+***** TLB L1 write back *****
 [6348] W DRAM[10000]
 [6448] W DRAM[30000]
 * W 30000
 ***** Page fault! *****
 [6449] W DRAM[0]
 PTE found (VA=30000 VPN=30 PA=31000)
-***** TLB L1 write back VPN=10 *****
+Evicting TLB L1 entry i=16 VPN=10 PPN=11 valid=1 dirty=1...
+***** TLB L1 write back *****
 [6549] W DRAM[11000]
 [6649] W DRAM[31000]
 * W 31000
 ***** Page fault! *****
 [6650] W DRAM[0]
 PTE found (VA=31000 VPN=31 PA=32000)
-***** TLB L1 write back VPN=11 *****
+Evicting TLB L1 entry i=17 VPN=11 PPN=12 valid=1 dirty=1...
+***** TLB L1 write back *****
 [6750] W DRAM[12000]
 [6850] W DRAM[32000]
 * W 32000
 ***** Page fault! *****
 [6851] W DRAM[0]
 PTE found (VA=32000 VPN=32 PA=33000)
-***** TLB L1 write back VPN=12 *****
+Evicting TLB L1 entry i=18 VPN=12 PPN=13 valid=1 dirty=1...
+***** TLB L1 write back *****
 [6951] W DRAM[13000]
 [7051] W DRAM[33000]
 * W 33000
 ***** Page fault! *****
 [7052] W DRAM[0]
 PTE found (VA=33000 VPN=33 PA=34000)
-***** TLB L1 write back VPN=13 *****
+Evicting TLB L1 entry i=19 VPN=13 PPN=14 valid=1 dirty=1...
+***** TLB L1 write back *****
 [7152] W DRAM[14000]
 [7252] W DRAM[34000]
 * W 34000
 ***** Page fault! *****
 [7253] W DRAM[0]
 PTE found (VA=34000 VPN=34 PA=35000)
-***** TLB L1 write back VPN=14 *****
+Evicting TLB L1 entry i=20 VPN=14 PPN=15 valid=1 dirty=1...
+***** TLB L1 write back *****
 [7353] W DRAM[15000]
 [7453] W DRAM[35000]
 * W 35000
 ***** Page fault! *****
 [7454] W DRAM[0]
 PTE found (VA=35000 VPN=35 PA=36000)
-***** TLB L1 write back VPN=15 *****
+Evicting TLB L1 entry i=21 VPN=15 PPN=16 valid=1 dirty=1...
+***** TLB L1 write back *****
 [7554] W DRAM[16000]
 [7654] W DRAM[36000]
 * W 36000
 ***** Page fault! *****
 [7655] W DRAM[0]
 PTE found (VA=36000 VPN=36 PA=37000)
-***** TLB L1 write back VPN=16 *****
+Evicting TLB L1 entry i=22 VPN=16 PPN=17 valid=1 dirty=1...
+***** TLB L1 write back *****
 [7755] W DRAM[17000]
 [7855] W DRAM[37000]
 * W 37000
 ***** Page fault! *****
 [7856] W DRAM[0]
 PTE found (VA=37000 VPN=37 PA=38000)
-***** TLB L1 write back VPN=17 *****
+Evicting TLB L1 entry i=23 VPN=17 PPN=18 valid=1 dirty=1...
+***** TLB L1 write back *****
 [7956] W DRAM[18000]
 [8056] W DRAM[38000]
 * W 38000
 ***** Page fault! *****
 [8057] W DRAM[0]
 PTE found (VA=38000 VPN=38 PA=39000)
-***** TLB L1 write back VPN=18 *****
+Evicting TLB L1 entry i=24 VPN=18 PPN=19 valid=1 dirty=1...
+***** TLB L1 write back *****
 [8157] W DRAM[19000]
 [8257] W DRAM[39000]
 * W 39000
 ***** Page fault! *****
 [8258] W DRAM[0]
 PTE found (VA=39000 VPN=39 PA=3a000)
-***** TLB L1 write back VPN=19 *****
+Evicting TLB L1 entry i=25 VPN=19 PPN=1a valid=1 dirty=1...
+***** TLB L1 write back *****
 [8358] W DRAM[1a000]
 [8458] W DRAM[3a000]
 * W 3a000
 ***** Page fault! *****
 [8459] W DRAM[0]
 PTE found (VA=3a000 VPN=3a PA=3b000)
-***** TLB L1 write back VPN=1a *****
+Evicting TLB L1 entry i=26 VPN=1a PPN=1b valid=1 dirty=1...
+***** TLB L1 write back *****
 [8559] W DRAM[1b000]
 [8659] W DRAM[3b000]
 * W 3b000
 ***** Page fault! *****
 [8660] W DRAM[0]
 PTE found (VA=3b000 VPN=3b PA=3c000)
-***** TLB L1 write back VPN=1b *****
+Evicting TLB L1 entry i=27 VPN=1b PPN=1c valid=1 dirty=1...
+***** TLB L1 write back *****
 [8760] W DRAM[1c000]
 [8860] W DRAM[3c000]
 * W 3c000
 ***** Page fault! *****
 [8861] W DRAM[0]
 PTE found (VA=3c000 VPN=3c PA=3d000)
-***** TLB L1 write back VPN=1c *****
+Evicting TLB L1 entry i=28 VPN=1c PPN=1d valid=1 dirty=1...
+***** TLB L1 write back *****
 [8961] W DRAM[1d000]
 [9061] W DRAM[3d000]
 * W 3d000
 ***** Page fault! *****
 [9062] W DRAM[0]
 PTE found (VA=3d000 VPN=3d PA=3e000)
-***** TLB L1 write back VPN=1d *****
+Evicting TLB L1 entry i=29 VPN=1d PPN=1e valid=1 dirty=1...
+***** TLB L1 write back *****
 [9162] W DRAM[1e000]
 [9262] W DRAM[3e000]
 * W 3e000
 ***** Page fault! *****
 [9263] W DRAM[0]
 PTE found (VA=3e000 VPN=3e PA=3f000)
-***** TLB L1 write back VPN=1e *****
+Evicting TLB L1 entry i=30 VPN=1e PPN=1f valid=1 dirty=1...
+***** TLB L1 write back *****
 [9363] W DRAM[1f000]
 [9463] W DRAM[3f000]
 * W 3f000
 ***** Page fault! *****
 [9464] W DRAM[0]
 PTE found (VA=3f000 VPN=3f PA=40000)
-***** TLB L1 write back VPN=1f *****
+Evicting TLB L1 entry i=31 VPN=1f PPN=20 valid=1 dirty=1...
+***** TLB L1 write back *****
 [9564] W DRAM[20000]
 [9664] W DRAM[40000]
 * W 40000
 ***** Page fault! *****
 [9665] W DRAM[0]
 PTE found (VA=40000 VPN=40 PA=41000)
-***** TLB L1 write back VPN=20 *****
+Evicting TLB L1 entry i=0 VPN=20 PPN=21 valid=1 dirty=1...
+***** TLB L1 write back *****
 [9765] W DRAM[21000]
 [9865] W DRAM[41000]
 * W 41000
 ***** Page fault! *****
 [9866] W DRAM[0]
 PTE found (VA=41000 VPN=41 PA=42000)
-***** TLB L1 write back VPN=21 *****
+Evicting TLB L1 entry i=1 VPN=21 PPN=22 valid=1 dirty=1...
+***** TLB L1 write back *****
 [9966] W DRAM[22000]
 [10066] W DRAM[42000]
 * W 42000
 ***** Page fault! *****
 [10067] W DRAM[0]
 PTE found (VA=42000 VPN=42 PA=43000)
-***** TLB L1 write back VPN=22 *****
+Evicting TLB L1 entry i=2 VPN=22 PPN=23 valid=1 dirty=1...
+***** TLB L1 write back *****
 [10167] W DRAM[23000]
 [10267] W DRAM[43000]
 * W 43000
 ***** Page fault! *****
 [10268] W DRAM[0]
 PTE found (VA=43000 VPN=43 PA=44000)
-***** TLB L1 write back VPN=23 *****
+Evicting TLB L1 entry i=3 VPN=23 PPN=24 valid=1 dirty=1...
+***** TLB L1 write back *****
 [10368] W DRAM[24000]
 [10468] W DRAM[44000]
 * W 44000
 ***** Page fault! *****
 [10469] W DRAM[0]
 PTE found (VA=44000 VPN=44 PA=45000)
-***** TLB L1 write back VPN=24 *****
+Evicting TLB L1 entry i=4 VPN=24 PPN=25 valid=1 dirty=1...
+***** TLB L1 write back *****
 [10569] W DRAM[25000]
 [10669] W DRAM[45000]
 * W 45000
 ***** Page fault! *****
 [10670] W DRAM[0]
 PTE found (VA=45000 VPN=45 PA=46000)
-***** TLB L1 write back VPN=25 *****
+Evicting TLB L1 entry i=5 VPN=25 PPN=26 valid=1 dirty=1...
+***** TLB L1 write back *****
 [10770] W DRAM[26000]
 [10870] W DRAM[46000]
 * W 46000
 ***** Page fault! *****
 [10871] W DRAM[0]
 PTE found (VA=46000 VPN=46 PA=47000)
-***** TLB L1 write back VPN=26 *****
+Evicting TLB L1 entry i=6 VPN=26 PPN=27 valid=1 dirty=1...
+***** TLB L1 write back *****
 [10971] W DRAM[27000]
 [11071] W DRAM[47000]
 * W 47000
 ***** Page fault! *****
 [11072] W DRAM[0]
 PTE found (VA=47000 VPN=47 PA=48000)
-***** TLB L1 write back VPN=27 *****
+Evicting TLB L1 entry i=7 VPN=27 PPN=28 valid=1 dirty=1...
+***** TLB L1 write back *****
 [11172] W DRAM[28000]
 [11272] W DRAM[48000]
 * W 48000
 ***** Page fault! *****
 [11273] W DRAM[0]
 PTE found (VA=48000 VPN=48 PA=49000)
-***** TLB L1 write back VPN=28 *****
+Evicting TLB L1 entry i=8 VPN=28 PPN=29 valid=1 dirty=1...
+***** TLB L1 write back *****
 [11373] W DRAM[29000]
 [11473] W DRAM[49000]
 * W 49000
 ***** Page fault! *****
 [11474] W DRAM[0]
 PTE found (VA=49000 VPN=49 PA=4a000)
-***** TLB L1 write back VPN=29 *****
+Evicting TLB L1 entry i=9 VPN=29 PPN=2a valid=1 dirty=1...
+***** TLB L1 write back *****
 [11574] W DRAM[2a000]
 [11674] W DRAM[4a000]
 * W 4a000
 ***** Page fault! *****
 [11675] W DRAM[0]
 PTE found (VA=4a000 VPN=4a PA=4b000)
-***** TLB L1 write back VPN=2a *****
+Evicting TLB L1 entry i=10 VPN=2a PPN=2b valid=1 dirty=1...
+***** TLB L1 write back *****
 [11775] W DRAM[2b000]
 [11875] W DRAM[4b000]
 * W 4b000
 ***** Page fault! *****
 [11876] W DRAM[0]
 PTE found (VA=4b000 VPN=4b PA=4c000)
-***** TLB L1 write back VPN=2b *****
+Evicting TLB L1 entry i=11 VPN=2b PPN=2c valid=1 dirty=1...
+***** TLB L1 write back *****
 [11976] W DRAM[2c000]
 [12076] W DRAM[4c000]
 * W 4c000
 ***** Page fault! *****
 [12077] W DRAM[0]
 PTE found (VA=4c000 VPN=4c PA=4d000)
-***** TLB L1 write back VPN=2c *****
+Evicting TLB L1 entry i=12 VPN=2c PPN=2d valid=1 dirty=1...
+***** TLB L1 write back *****
 [12177] W DRAM[2d000]
 [12277] W DRAM[4d000]
 * W 4d000
 ***** Page fault! *****
 [12278] W DRAM[0]
 PTE found (VA=4d000 VPN=4d PA=4e000)
-***** TLB L1 write back VPN=2d *****
+Evicting TLB L1 entry i=13 VPN=2d PPN=2e valid=1 dirty=1...
+***** TLB L1 write back *****
 [12378] W DRAM[2e000]
 [12478] W DRAM[4e000]
 * W 4e000
 ***** Page fault! *****
 [12479] W DRAM[0]
 PTE found (VA=4e000 VPN=4e PA=4f000)
-***** TLB L1 write back VPN=2e *****
+Evicting TLB L1 entry i=14 VPN=2e PPN=2f valid=1 dirty=1...
+***** TLB L1 write back *****
 [12579] W DRAM[2f000]
 [12679] W DRAM[4f000]
 * W 4f000
 ***** Page fault! *****
 [12680] W DRAM[0]
 PTE found (VA=4f000 VPN=4f PA=50000)
-***** TLB L1 write back VPN=2f *****
+Evicting TLB L1 entry i=15 VPN=2f PPN=30 valid=1 dirty=1...
+***** TLB L1 write back *****
 [12780] W DRAM[30000]
 [12880] W DRAM[50000]
 * W 50000
 ***** Page fault! *****
 [12881] W DRAM[0]
 PTE found (VA=50000 VPN=50 PA=51000)
-***** TLB L1 write back VPN=30 *****
+Evicting TLB L1 entry i=16 VPN=30 PPN=31 valid=1 dirty=1...
+***** TLB L1 write back *****
 [12981] W DRAM[31000]
 [13081] W DRAM[51000]
 * W 51000
 ***** Page fault! *****
 [13082] W DRAM[0]
 PTE found (VA=51000 VPN=51 PA=52000)
-***** TLB L1 write back VPN=31 *****
+Evicting TLB L1 entry i=17 VPN=31 PPN=32 valid=1 dirty=1...
+***** TLB L1 write back *****
 [13182] W DRAM[32000]
 [13282] W DRAM[52000]
 * W 52000
 ***** Page fault! *****
 [13283] W DRAM[0]
 PTE found (VA=52000 VPN=52 PA=53000)
-***** TLB L1 write back VPN=32 *****
+Evicting TLB L1 entry i=18 VPN=32 PPN=33 valid=1 dirty=1...
+***** TLB L1 write back *****
 [13383] W DRAM[33000]
 [13483] W DRAM[53000]
 * W 53000
 ***** Page fault! *****
 [13484] W DRAM[0]
 PTE found (VA=53000 VPN=53 PA=54000)
-***** TLB L1 write back VPN=33 *****
+Evicting TLB L1 entry i=19 VPN=33 PPN=34 valid=1 dirty=1...
+***** TLB L1 write back *****
 [13584] W DRAM[34000]
 [13684] W DRAM[54000]
 * W 54000
 ***** Page fault! *****
 [13685] W DRAM[0]
 PTE found (VA=54000 VPN=54 PA=55000)
-***** TLB L1 write back VPN=34 *****
+Evicting TLB L1 entry i=20 VPN=34 PPN=35 valid=1 dirty=1...
+***** TLB L1 write back *****
 [13785] W DRAM[35000]
 [13885] W DRAM[55000]
 * W 55000
 ***** Page fault! *****
 [13886] W DRAM[0]
 PTE found (VA=55000 VPN=55 PA=56000)
-***** TLB L1 write back VPN=35 *****
+Evicting TLB L1 entry i=21 VPN=35 PPN=36 valid=1 dirty=1...
+***** TLB L1 write back *****
 [13986] W DRAM[36000]
 [14086] W DRAM[56000]
 * W 56000
 ***** Page fault! *****
 [14087] W DRAM[0]
 PTE found (VA=56000 VPN=56 PA=57000)
-***** TLB L1 write back VPN=36 *****
+Evicting TLB L1 entry i=22 VPN=36 PPN=37 valid=1 dirty=1...
+***** TLB L1 write back *****
 [14187] W DRAM[37000]
 [14287] W DRAM[57000]
 * W 57000
 ***** Page fault! *****
 [14288] W DRAM[0]
 PTE found (VA=57000 VPN=57 PA=58000)
-***** TLB L1 write back VPN=37 *****
+Evicting TLB L1 entry i=23 VPN=37 PPN=38 valid=1 dirty=1...
+***** TLB L1 write back *****
 [14388] W DRAM[38000]
 [14488] W DRAM[58000]
 * W 58000
 ***** Page fault! *****
 [14489] W DRAM[0]
 PTE found (VA=58000 VPN=58 PA=59000)
-***** TLB L1 write back VPN=38 *****
+Evicting TLB L1 entry i=24 VPN=38 PPN=39 valid=1 dirty=1...
+***** TLB L1 write back *****
 [14589] W DRAM[39000]
 [14689] W DRAM[59000]
 * W 59000
 ***** Page fault! *****
 [14690] W DRAM[0]
 PTE found (VA=59000 VPN=59 PA=5a000)
-***** TLB L1 write back VPN=39 *****
+Evicting TLB L1 entry i=25 VPN=39 PPN=3a valid=1 dirty=1...
+***** TLB L1 write back *****
 [14790] W DRAM[3a000]
 [14890] W DRAM[5a000]
 * W 5a000
 ***** Page fault! *****
 [14891] W DRAM[0]
 PTE found (VA=5a000 VPN=5a PA=5b000)
-***** TLB L1 write back VPN=3a *****
+Evicting TLB L1 entry i=26 VPN=3a PPN=3b valid=1 dirty=1...
+***** TLB L1 write back *****
 [14991] W DRAM[3b000]
 [15091] W DRAM[5b000]
 * W 5b000
 ***** Page fault! *****
 [15092] W DRAM[0]
 PTE found (VA=5b000 VPN=5b PA=5c000)
-***** TLB L1 write back VPN=3b *****
+Evicting TLB L1 entry i=27 VPN=3b PPN=3c valid=1 dirty=1...
+***** TLB L1 write back *****
 [15192] W DRAM[3c000]
 [15292] W DRAM[5c000]
 * W 5c000
 ***** Page fault! *****
 [15293] W DRAM[0]
 PTE found (VA=5c000 VPN=5c PA=5d000)
-***** TLB L1 write back VPN=3c *****
+Evicting TLB L1 entry i=28 VPN=3c PPN=3d valid=1 dirty=1...
+***** TLB L1 write back *****
 [15393] W DRAM[3d000]
 [15493] W DRAM[5d000]
 * W 5d000
 ***** Page fault! *****
 [15494] W DRAM[0]
 PTE found (VA=5d000 VPN=5d PA=5e000)
-***** TLB L1 write back VPN=3d *****
+Evicting TLB L1 entry i=29 VPN=3d PPN=3e valid=1 dirty=1...
+***** TLB L1 write back *****
 [15594] W DRAM[3e000]
 [15694] W DRAM[5e000]
 * W 5e000
 ***** Page fault! *****
 [15695] W DRAM[0]
 PTE found (VA=5e000 VPN=5e PA=5f000)
-***** TLB L1 write back VPN=3e *****
+Evicting TLB L1 entry i=30 VPN=3e PPN=3f valid=1 dirty=1...
+***** TLB L1 write back *****
 [15795] W DRAM[3f000]
 [15895] W DRAM[5f000]
 * W 5f000
 ***** Page fault! *****
 [15896] W DRAM[0]
 PTE found (VA=5f000 VPN=5f PA=60000)
-***** TLB L1 write back VPN=3f *****
+Evicting TLB L1 entry i=31 VPN=3f PPN=40 valid=1 dirty=1...
+***** TLB L1 write back *****
 [15996] W DRAM[40000]
 [16096] W DRAM[60000]
 * W 60000
 ***** Page fault! *****
 [16097] W DRAM[0]
 PTE found (VA=60000 VPN=60 PA=61000)
-***** TLB L1 write back VPN=40 *****
+Evicting TLB L1 entry i=0 VPN=40 PPN=41 valid=1 dirty=1...
+***** TLB L1 write back *****
 [16197] W DRAM[41000]
 [16297] W DRAM[61000]
 * W 61000
 ***** Page fault! *****
 [16298] W DRAM[0]
 PTE found (VA=61000 VPN=61 PA=62000)
-***** TLB L1 write back VPN=41 *****
+Evicting TLB L1 entry i=1 VPN=41 PPN=42 valid=1 dirty=1...
+***** TLB L1 write back *****
 [16398] W DRAM[42000]
 [16498] W DRAM[62000]
 * W 62000
 ***** Page fault! *****
 [16499] W DRAM[0]
 PTE found (VA=62000 VPN=62 PA=63000)
-***** TLB L1 write back VPN=42 *****
+Evicting TLB L1 entry i=2 VPN=42 PPN=43 valid=1 dirty=1...
+***** TLB L1 write back *****
 [16599] W DRAM[43000]
 [16699] W DRAM[63000]
 * W 63000
 ***** Page fault! *****
 [16700] W DRAM[0]
 PTE found (VA=63000 VPN=63 PA=64000)
-***** TLB L1 write back VPN=43 *****
+Evicting TLB L1 entry i=3 VPN=43 PPN=44 valid=1 dirty=1...
+***** TLB L1 write back *****
 [16800] W DRAM[44000]
 [16900] W DRAM[64000]
 * R 0
 [16901] R DRAM[0]
 PTE found (VA=0 VPN=0 PA=1000)
-***** TLB L1 write back VPN=44 *****
+Evicting TLB L1 entry i=4 VPN=44 PPN=45 valid=1 dirty=1...
+***** TLB L1 write back *****
 [17001] W DRAM[45000]
 [17101] R DRAM[1000]
 * R 1
@@ -8844,7 +8945,8 @@ PTE found (VA=0 VPN=0 PA=1000)
 * R 1000
 [21197] R DRAM[0]
 PTE found (VA=1000 VPN=1 PA=2000)
-***** TLB L1 write back VPN=45 *****
+Evicting TLB L1 entry i=5 VPN=45 PPN=46 valid=1 dirty=1...
+***** TLB L1 write back *****
 [21297] W DRAM[46000]
 [21397] R DRAM[2000]
 * R 1001
@@ -17040,7 +17142,8 @@ PTE found (VA=1000 VPN=1 PA=2000)
 * R 2000
 [25493] R DRAM[0]
 PTE found (VA=2000 VPN=2 PA=3000)
-***** TLB L1 write back VPN=46 *****
+Evicting TLB L1 entry i=6 VPN=46 PPN=47 valid=1 dirty=1...
+***** TLB L1 write back *****
 [25593] W DRAM[47000]
 [25693] R DRAM[3000]
 * R 2001
@@ -25236,7 +25339,8 @@ PTE found (VA=2000 VPN=2 PA=3000)
 * R 3000
 [29789] R DRAM[0]
 PTE found (VA=3000 VPN=3 PA=4000)
-***** TLB L1 write back VPN=47 *****
+Evicting TLB L1 entry i=7 VPN=47 PPN=48 valid=1 dirty=1...
+***** TLB L1 write back *****
 [29889] W DRAM[48000]
 [29989] R DRAM[4000]
 * R 3001
@@ -33432,7 +33536,8 @@ PTE found (VA=3000 VPN=3 PA=4000)
 * R 4000
 [34085] R DRAM[0]
 PTE found (VA=4000 VPN=4 PA=5000)
-***** TLB L1 write back VPN=48 *****
+Evicting TLB L1 entry i=8 VPN=48 PPN=49 valid=1 dirty=1...
+***** TLB L1 write back *****
 [34185] W DRAM[49000]
 [34285] R DRAM[5000]
 * R 4001
@@ -41628,7 +41733,8 @@ PTE found (VA=4000 VPN=4 PA=5000)
 * R 5000
 [38381] R DRAM[0]
 PTE found (VA=5000 VPN=5 PA=6000)
-***** TLB L1 write back VPN=49 *****
+Evicting TLB L1 entry i=9 VPN=49 PPN=4a valid=1 dirty=1...
+***** TLB L1 write back *****
 [38481] W DRAM[4a000]
 [38581] R DRAM[6000]
 * R 5001
@@ -49824,7 +49930,8 @@ PTE found (VA=5000 VPN=5 PA=6000)
 * R 6000
 [42677] R DRAM[0]
 PTE found (VA=6000 VPN=6 PA=7000)
-***** TLB L1 write back VPN=4a *****
+Evicting TLB L1 entry i=10 VPN=4a PPN=4b valid=1 dirty=1...
+***** TLB L1 write back *****
 [42777] W DRAM[4b000]
 [42877] R DRAM[7000]
 * R 6001
@@ -58020,7 +58127,8 @@ PTE found (VA=6000 VPN=6 PA=7000)
 * R 7000
 [46973] R DRAM[0]
 PTE found (VA=7000 VPN=7 PA=8000)
-***** TLB L1 write back VPN=4b *****
+Evicting TLB L1 entry i=11 VPN=4b PPN=4c valid=1 dirty=1...
+***** TLB L1 write back *****
 [47073] W DRAM[4c000]
 [47173] R DRAM[8000]
 * R 7001
@@ -66216,7 +66324,8 @@ PTE found (VA=7000 VPN=7 PA=8000)
 * R 8000
 [51269] R DRAM[0]
 PTE found (VA=8000 VPN=8 PA=9000)
-***** TLB L1 write back VPN=4c *****
+Evicting TLB L1 entry i=12 VPN=4c PPN=4d valid=1 dirty=1...
+***** TLB L1 write back *****
 [51369] W DRAM[4d000]
 [51469] R DRAM[9000]
 * R 8001
@@ -74412,7 +74521,8 @@ PTE found (VA=8000 VPN=8 PA=9000)
 * R 9000
 [55565] R DRAM[0]
 PTE found (VA=9000 VPN=9 PA=a000)
-***** TLB L1 write back VPN=4d *****
+Evicting TLB L1 entry i=13 VPN=4d PPN=4e valid=1 dirty=1...
+***** TLB L1 write back *****
 [55665] W DRAM[4e000]
 [55765] R DRAM[a000]
 * R 9001
@@ -82608,7 +82718,8 @@ PTE found (VA=9000 VPN=9 PA=a000)
 * R a000
 [59861] R DRAM[0]
 PTE found (VA=a000 VPN=a PA=b000)
-***** TLB L1 write back VPN=4e *****
+Evicting TLB L1 entry i=14 VPN=4e PPN=4f valid=1 dirty=1...
+***** TLB L1 write back *****
 [59961] W DRAM[4f000]
 [60061] R DRAM[b000]
 * R a001
@@ -90804,7 +90915,8 @@ PTE found (VA=a000 VPN=a PA=b000)
 * R b000
 [64157] R DRAM[0]
 PTE found (VA=b000 VPN=b PA=c000)
-***** TLB L1 write back VPN=4f *****
+Evicting TLB L1 entry i=15 VPN=4f PPN=50 valid=1 dirty=1...
+***** TLB L1 write back *****
 [64257] W DRAM[50000]
 [64357] R DRAM[c000]
 * R b001
@@ -99000,7 +99112,8 @@ PTE found (VA=b000 VPN=b PA=c000)
 * R c000
 [68453] R DRAM[0]
 PTE found (VA=c000 VPN=c PA=d000)
-***** TLB L1 write back VPN=50 *****
+Evicting TLB L1 entry i=16 VPN=50 PPN=51 valid=1 dirty=1...
+***** TLB L1 write back *****
 [68553] W DRAM[51000]
 [68653] R DRAM[d000]
 * R c001
@@ -107196,7 +107309,8 @@ PTE found (VA=c000 VPN=c PA=d000)
 * R d000
 [72749] R DRAM[0]
 PTE found (VA=d000 VPN=d PA=e000)
-***** TLB L1 write back VPN=51 *****
+Evicting TLB L1 entry i=17 VPN=51 PPN=52 valid=1 dirty=1...
+***** TLB L1 write back *****
 [72849] W DRAM[52000]
 [72949] R DRAM[e000]
 * R d001
@@ -115392,7 +115506,8 @@ PTE found (VA=d000 VPN=d PA=e000)
 * R e000
 [77045] R DRAM[0]
 PTE found (VA=e000 VPN=e PA=f000)
-***** TLB L1 write back VPN=52 *****
+Evicting TLB L1 entry i=18 VPN=52 PPN=53 valid=1 dirty=1...
+***** TLB L1 write back *****
 [77145] W DRAM[53000]
 [77245] R DRAM[f000]
 * R e001
@@ -123588,7 +123703,8 @@ PTE found (VA=e000 VPN=e PA=f000)
 * R f000
 [81341] R DRAM[0]
 PTE found (VA=f000 VPN=f PA=10000)
-***** TLB L1 write back VPN=53 *****
+Evicting TLB L1 entry i=19 VPN=53 PPN=54 valid=1 dirty=1...
+***** TLB L1 write back *****
 [81441] W DRAM[54000]
 [81541] R DRAM[10000]
 * R f001
@@ -131784,7 +131900,8 @@ PTE found (VA=f000 VPN=f PA=10000)
 * R 10000
 [85637] R DRAM[0]
 PTE found (VA=10000 VPN=10 PA=11000)
-***** TLB L1 write back VPN=54 *****
+Evicting TLB L1 entry i=20 VPN=54 PPN=55 valid=1 dirty=1...
+***** TLB L1 write back *****
 [85737] W DRAM[55000]
 [85837] R DRAM[11000]
 * R 10001
@@ -139980,7 +140097,8 @@ PTE found (VA=10000 VPN=10 PA=11000)
 * R 11000
 [89933] R DRAM[0]
 PTE found (VA=11000 VPN=11 PA=12000)
-***** TLB L1 write back VPN=55 *****
+Evicting TLB L1 entry i=21 VPN=55 PPN=56 valid=1 dirty=1...
+***** TLB L1 write back *****
 [90033] W DRAM[56000]
 [90133] R DRAM[12000]
 * R 11001
@@ -148176,7 +148294,8 @@ PTE found (VA=11000 VPN=11 PA=12000)
 * R 12000
 [94229] R DRAM[0]
 PTE found (VA=12000 VPN=12 PA=13000)
-***** TLB L1 write back VPN=56 *****
+Evicting TLB L1 entry i=22 VPN=56 PPN=57 valid=1 dirty=1...
+***** TLB L1 write back *****
 [94329] W DRAM[57000]
 [94429] R DRAM[13000]
 * R 12001
@@ -156372,7 +156491,8 @@ PTE found (VA=12000 VPN=12 PA=13000)
 * R 13000
 [98525] R DRAM[0]
 PTE found (VA=13000 VPN=13 PA=14000)
-***** TLB L1 write back VPN=57 *****
+Evicting TLB L1 entry i=23 VPN=57 PPN=58 valid=1 dirty=1...
+***** TLB L1 write back *****
 [98625] W DRAM[58000]
 [98725] R DRAM[14000]
 * R 13001
@@ -164568,7 +164688,8 @@ PTE found (VA=13000 VPN=13 PA=14000)
 * R 14000
 [102821] R DRAM[0]
 PTE found (VA=14000 VPN=14 PA=15000)
-***** TLB L1 write back VPN=58 *****
+Evicting TLB L1 entry i=24 VPN=58 PPN=59 valid=1 dirty=1...
+***** TLB L1 write back *****
 [102921] W DRAM[59000]
 [103021] R DRAM[15000]
 * R 14001
@@ -172764,7 +172885,8 @@ PTE found (VA=14000 VPN=14 PA=15000)
 * R 15000
 [107117] R DRAM[0]
 PTE found (VA=15000 VPN=15 PA=16000)
-***** TLB L1 write back VPN=59 *****
+Evicting TLB L1 entry i=25 VPN=59 PPN=5a valid=1 dirty=1...
+***** TLB L1 write back *****
 [107217] W DRAM[5a000]
 [107317] R DRAM[16000]
 * R 15001
@@ -180960,7 +181082,8 @@ PTE found (VA=15000 VPN=15 PA=16000)
 * R 16000
 [111413] R DRAM[0]
 PTE found (VA=16000 VPN=16 PA=17000)
-***** TLB L1 write back VPN=5a *****
+Evicting TLB L1 entry i=26 VPN=5a PPN=5b valid=1 dirty=1...
+***** TLB L1 write back *****
 [111513] W DRAM[5b000]
 [111613] R DRAM[17000]
 * R 16001
@@ -189156,7 +189279,8 @@ PTE found (VA=16000 VPN=16 PA=17000)
 * R 17000
 [115709] R DRAM[0]
 PTE found (VA=17000 VPN=17 PA=18000)
-***** TLB L1 write back VPN=5b *****
+Evicting TLB L1 entry i=27 VPN=5b PPN=5c valid=1 dirty=1...
+***** TLB L1 write back *****
 [115809] W DRAM[5c000]
 [115909] R DRAM[18000]
 * R 17001
@@ -197352,7 +197476,8 @@ PTE found (VA=17000 VPN=17 PA=18000)
 * R 18000
 [120005] R DRAM[0]
 PTE found (VA=18000 VPN=18 PA=19000)
-***** TLB L1 write back VPN=5c *****
+Evicting TLB L1 entry i=28 VPN=5c PPN=5d valid=1 dirty=1...
+***** TLB L1 write back *****
 [120105] W DRAM[5d000]
 [120205] R DRAM[19000]
 * R 18001
@@ -205548,7 +205673,8 @@ PTE found (VA=18000 VPN=18 PA=19000)
 * R 19000
 [124301] R DRAM[0]
 PTE found (VA=19000 VPN=19 PA=1a000)
-***** TLB L1 write back VPN=5d *****
+Evicting TLB L1 entry i=29 VPN=5d PPN=5e valid=1 dirty=1...
+***** TLB L1 write back *****
 [124401] W DRAM[5e000]
 [124501] R DRAM[1a000]
 * R 19001
@@ -213744,7 +213870,8 @@ PTE found (VA=19000 VPN=19 PA=1a000)
 * R 1a000
 [128597] R DRAM[0]
 PTE found (VA=1a000 VPN=1a PA=1b000)
-***** TLB L1 write back VPN=5e *****
+Evicting TLB L1 entry i=30 VPN=5e PPN=5f valid=1 dirty=1...
+***** TLB L1 write back *****
 [128697] W DRAM[5f000]
 [128797] R DRAM[1b000]
 * R 1a001
@@ -221940,7 +222067,8 @@ PTE found (VA=1a000 VPN=1a PA=1b000)
 * R 1b000
 [132893] R DRAM[0]
 PTE found (VA=1b000 VPN=1b PA=1c000)
-***** TLB L1 write back VPN=5f *****
+Evicting TLB L1 entry i=31 VPN=5f PPN=60 valid=1 dirty=1...
+***** TLB L1 write back *****
 [132993] W DRAM[60000]
 [133093] R DRAM[1c000]
 * R 1b001
@@ -230136,7 +230264,8 @@ PTE found (VA=1b000 VPN=1b PA=1c000)
 * R 1c000
 [137189] R DRAM[0]
 PTE found (VA=1c000 VPN=1c PA=1d000)
-***** TLB L1 write back VPN=60 *****
+Evicting TLB L1 entry i=0 VPN=60 PPN=61 valid=1 dirty=1...
+***** TLB L1 write back *****
 [137289] W DRAM[61000]
 [137389] R DRAM[1d000]
 * R 1c001
@@ -238332,7 +238461,8 @@ PTE found (VA=1c000 VPN=1c PA=1d000)
 * R 1d000
 [141485] R DRAM[0]
 PTE found (VA=1d000 VPN=1d PA=1e000)
-***** TLB L1 write back VPN=61 *****
+Evicting TLB L1 entry i=1 VPN=61 PPN=62 valid=1 dirty=1...
+***** TLB L1 write back *****
 [141585] W DRAM[62000]
 [141685] R DRAM[1e000]
 * R 1d001
@@ -246528,7 +246658,8 @@ PTE found (VA=1d000 VPN=1d PA=1e000)
 * R 1e000
 [145781] R DRAM[0]
 PTE found (VA=1e000 VPN=1e PA=1f000)
-***** TLB L1 write back VPN=62 *****
+Evicting TLB L1 entry i=2 VPN=62 PPN=63 valid=1 dirty=1...
+***** TLB L1 write back *****
 [145881] W DRAM[63000]
 [145981] R DRAM[1f000]
 * R 1e001
@@ -254724,7 +254855,8 @@ PTE found (VA=1e000 VPN=1e PA=1f000)
 * R 1f000
 [150077] R DRAM[0]
 PTE found (VA=1f000 VPN=1f PA=20000)
-***** TLB L1 write back VPN=63 *****
+Evicting TLB L1 entry i=3 VPN=63 PPN=64 valid=1 dirty=1...
+***** TLB L1 write back *****
 [150177] W DRAM[64000]
 [150277] R DRAM[20000]
 * R 1f001
@@ -262920,6 +263052,7 @@ PTE found (VA=1f000 VPN=1f PA=20000)
 * R 20000
 [154373] R DRAM[0]
 PTE found (VA=20000 VPN=20 PA=21000)
+Evicting TLB L1 entry i=4 VPN=0 PPN=1 valid=1 dirty=0...
 [154473] R DRAM[21000]
 * R 20001
 [154474] R DRAM[21001]
@@ -271114,6 +271247,7 @@ PTE found (VA=20000 VPN=20 PA=21000)
 * R 21000
 [158569] R DRAM[0]
 PTE found (VA=21000 VPN=21 PA=22000)
+Evicting TLB L1 entry i=5 VPN=1 PPN=2 valid=1 dirty=0...
 [158669] R DRAM[22000]
 * R 21001
 [158670] R DRAM[22001]
@@ -279308,6 +279442,7 @@ PTE found (VA=21000 VPN=21 PA=22000)
 * R 22000
 [162765] R DRAM[0]
 PTE found (VA=22000 VPN=22 PA=23000)
+Evicting TLB L1 entry i=6 VPN=2 PPN=3 valid=1 dirty=0...
 [162865] R DRAM[23000]
 * R 22001
 [162866] R DRAM[23001]
@@ -287502,6 +287637,7 @@ PTE found (VA=22000 VPN=22 PA=23000)
 * R 23000
 [166961] R DRAM[0]
 PTE found (VA=23000 VPN=23 PA=24000)
+Evicting TLB L1 entry i=7 VPN=3 PPN=4 valid=1 dirty=0...
 [167061] R DRAM[24000]
 * R 23001
 [167062] R DRAM[24001]
@@ -295696,6 +295832,7 @@ PTE found (VA=23000 VPN=23 PA=24000)
 * R 24000
 [171157] R DRAM[0]
 PTE found (VA=24000 VPN=24 PA=25000)
+Evicting TLB L1 entry i=8 VPN=4 PPN=5 valid=1 dirty=0...
 [171257] R DRAM[25000]
 * R 24001
 [171258] R DRAM[25001]
@@ -303890,6 +304027,7 @@ PTE found (VA=24000 VPN=24 PA=25000)
 * R 25000
 [175353] R DRAM[0]
 PTE found (VA=25000 VPN=25 PA=26000)
+Evicting TLB L1 entry i=9 VPN=5 PPN=6 valid=1 dirty=0...
 [175453] R DRAM[26000]
 * R 25001
 [175454] R DRAM[26001]
@@ -312084,6 +312222,7 @@ PTE found (VA=25000 VPN=25 PA=26000)
 * R 26000
 [179549] R DRAM[0]
 PTE found (VA=26000 VPN=26 PA=27000)
+Evicting TLB L1 entry i=10 VPN=6 PPN=7 valid=1 dirty=0...
 [179649] R DRAM[27000]
 * R 26001
 [179650] R DRAM[27001]
@@ -320278,6 +320417,7 @@ PTE found (VA=26000 VPN=26 PA=27000)
 * R 27000
 [183745] R DRAM[0]
 PTE found (VA=27000 VPN=27 PA=28000)
+Evicting TLB L1 entry i=11 VPN=7 PPN=8 valid=1 dirty=0...
 [183845] R DRAM[28000]
 * R 27001
 [183846] R DRAM[28001]
@@ -328472,6 +328612,7 @@ PTE found (VA=27000 VPN=27 PA=28000)
 * R 28000
 [187941] R DRAM[0]
 PTE found (VA=28000 VPN=28 PA=29000)
+Evicting TLB L1 entry i=12 VPN=8 PPN=9 valid=1 dirty=0...
 [188041] R DRAM[29000]
 * R 28001
 [188042] R DRAM[29001]
@@ -336666,6 +336807,7 @@ PTE found (VA=28000 VPN=28 PA=29000)
 * R 29000
 [192137] R DRAM[0]
 PTE found (VA=29000 VPN=29 PA=2a000)
+Evicting TLB L1 entry i=13 VPN=9 PPN=a valid=1 dirty=0...
 [192237] R DRAM[2a000]
 * R 29001
 [192238] R DRAM[2a001]
@@ -344860,6 +345002,7 @@ PTE found (VA=29000 VPN=29 PA=2a000)
 * R 2a000
 [196333] R DRAM[0]
 PTE found (VA=2a000 VPN=2a PA=2b000)
+Evicting TLB L1 entry i=14 VPN=a PPN=b valid=1 dirty=0...
 [196433] R DRAM[2b000]
 * R 2a001
 [196434] R DRAM[2b001]
@@ -353054,6 +353197,7 @@ PTE found (VA=2a000 VPN=2a PA=2b000)
 * R 2b000
 [200529] R DRAM[0]
 PTE found (VA=2b000 VPN=2b PA=2c000)
+Evicting TLB L1 entry i=15 VPN=b PPN=c valid=1 dirty=0...
 [200629] R DRAM[2c000]
 * R 2b001
 [200630] R DRAM[2c001]
@@ -361248,6 +361392,7 @@ PTE found (VA=2b000 VPN=2b PA=2c000)
 * R 2c000
 [204725] R DRAM[0]
 PTE found (VA=2c000 VPN=2c PA=2d000)
+Evicting TLB L1 entry i=16 VPN=c PPN=d valid=1 dirty=0...
 [204825] R DRAM[2d000]
 * R 2c001
 [204826] R DRAM[2d001]
@@ -369442,6 +369587,7 @@ PTE found (VA=2c000 VPN=2c PA=2d000)
 * R 2d000
 [208921] R DRAM[0]
 PTE found (VA=2d000 VPN=2d PA=2e000)
+Evicting TLB L1 entry i=17 VPN=d PPN=e valid=1 dirty=0...
 [209021] R DRAM[2e000]
 * R 2d001
 [209022] R DRAM[2e001]
@@ -377636,6 +377782,7 @@ PTE found (VA=2d000 VPN=2d PA=2e000)
 * R 2e000
 [213117] R DRAM[0]
 PTE found (VA=2e000 VPN=2e PA=2f000)
+Evicting TLB L1 entry i=18 VPN=e PPN=f valid=1 dirty=0...
 [213217] R DRAM[2f000]
 * R 2e001
 [213218] R DRAM[2f001]
@@ -385830,6 +385977,7 @@ PTE found (VA=2e000 VPN=2e PA=2f000)
 * R 2f000
 [217313] R DRAM[0]
 PTE found (VA=2f000 VPN=2f PA=30000)
+Evicting TLB L1 entry i=19 VPN=f PPN=10 valid=1 dirty=0...
 [217413] R DRAM[30000]
 * R 2f001
 [217414] R DRAM[30001]
@@ -394024,6 +394172,7 @@ PTE found (VA=2f000 VPN=2f PA=30000)
 * R 30000
 [221509] R DRAM[0]
 PTE found (VA=30000 VPN=30 PA=31000)
+Evicting TLB L1 entry i=20 VPN=10 PPN=11 valid=1 dirty=0...
 [221609] R DRAM[31000]
 * R 30001
 [221610] R DRAM[31001]
@@ -402218,6 +402367,7 @@ PTE found (VA=30000 VPN=30 PA=31000)
 * R 31000
 [225705] R DRAM[0]
 PTE found (VA=31000 VPN=31 PA=32000)
+Evicting TLB L1 entry i=21 VPN=11 PPN=12 valid=1 dirty=0...
 [225805] R DRAM[32000]
 * R 31001
 [225806] R DRAM[32001]
@@ -410412,6 +410562,7 @@ PTE found (VA=31000 VPN=31 PA=32000)
 * R 32000
 [229901] R DRAM[0]
 PTE found (VA=32000 VPN=32 PA=33000)
+Evicting TLB L1 entry i=22 VPN=12 PPN=13 valid=1 dirty=0...
 [230001] R DRAM[33000]
 * R 32001
 [230002] R DRAM[33001]
@@ -418606,6 +418757,7 @@ PTE found (VA=32000 VPN=32 PA=33000)
 * R 33000
 [234097] R DRAM[0]
 PTE found (VA=33000 VPN=33 PA=34000)
+Evicting TLB L1 entry i=23 VPN=13 PPN=14 valid=1 dirty=0...
 [234197] R DRAM[34000]
 * R 33001
 [234198] R DRAM[34001]
@@ -426800,6 +426952,7 @@ PTE found (VA=33000 VPN=33 PA=34000)
 * R 34000
 [238293] R DRAM[0]
 PTE found (VA=34000 VPN=34 PA=35000)
+Evicting TLB L1 entry i=24 VPN=14 PPN=15 valid=1 dirty=0...
 [238393] R DRAM[35000]
 * R 34001
 [238394] R DRAM[35001]
@@ -434994,6 +435147,7 @@ PTE found (VA=34000 VPN=34 PA=35000)
 * R 35000
 [242489] R DRAM[0]
 PTE found (VA=35000 VPN=35 PA=36000)
+Evicting TLB L1 entry i=25 VPN=15 PPN=16 valid=1 dirty=0...
 [242589] R DRAM[36000]
 * R 35001
 [242590] R DRAM[36001]
@@ -443188,6 +443342,7 @@ PTE found (VA=35000 VPN=35 PA=36000)
 * R 36000
 [246685] R DRAM[0]
 PTE found (VA=36000 VPN=36 PA=37000)
+Evicting TLB L1 entry i=26 VPN=16 PPN=17 valid=1 dirty=0...
 [246785] R DRAM[37000]
 * R 36001
 [246786] R DRAM[37001]
@@ -451382,6 +451537,7 @@ PTE found (VA=36000 VPN=36 PA=37000)
 * R 37000
 [250881] R DRAM[0]
 PTE found (VA=37000 VPN=37 PA=38000)
+Evicting TLB L1 entry i=27 VPN=17 PPN=18 valid=1 dirty=0...
 [250981] R DRAM[38000]
 * R 37001
 [250982] R DRAM[38001]
@@ -459576,6 +459732,7 @@ PTE found (VA=37000 VPN=37 PA=38000)
 * R 38000
 [255077] R DRAM[0]
 PTE found (VA=38000 VPN=38 PA=39000)
+Evicting TLB L1 entry i=28 VPN=18 PPN=19 valid=1 dirty=0...
 [255177] R DRAM[39000]
 * R 38001
 [255178] R DRAM[39001]
@@ -467770,6 +467927,7 @@ PTE found (VA=38000 VPN=38 PA=39000)
 * R 39000
 [259273] R DRAM[0]
 PTE found (VA=39000 VPN=39 PA=3a000)
+Evicting TLB L1 entry i=29 VPN=19 PPN=1a valid=1 dirty=0...
 [259373] R DRAM[3a000]
 * R 39001
 [259374] R DRAM[3a001]
@@ -475964,6 +476122,7 @@ PTE found (VA=39000 VPN=39 PA=3a000)
 * R 3a000
 [263469] R DRAM[0]
 PTE found (VA=3a000 VPN=3a PA=3b000)
+Evicting TLB L1 entry i=30 VPN=1a PPN=1b valid=1 dirty=0...
 [263569] R DRAM[3b000]
 * R 3a001
 [263570] R DRAM[3b001]
@@ -484158,6 +484317,7 @@ PTE found (VA=3a000 VPN=3a PA=3b000)
 * R 3b000
 [267665] R DRAM[0]
 PTE found (VA=3b000 VPN=3b PA=3c000)
+Evicting TLB L1 entry i=31 VPN=1b PPN=1c valid=1 dirty=0...
 [267765] R DRAM[3c000]
 * R 3b001
 [267766] R DRAM[3c001]
@@ -492352,6 +492512,7 @@ PTE found (VA=3b000 VPN=3b PA=3c000)
 * R 3c000
 [271861] R DRAM[0]
 PTE found (VA=3c000 VPN=3c PA=3d000)
+Evicting TLB L1 entry i=0 VPN=1c PPN=1d valid=1 dirty=0...
 [271961] R DRAM[3d000]
 * R 3c001
 [271962] R DRAM[3d001]
@@ -500546,6 +500707,7 @@ PTE found (VA=3c000 VPN=3c PA=3d000)
 * R 3d000
 [276057] R DRAM[0]
 PTE found (VA=3d000 VPN=3d PA=3e000)
+Evicting TLB L1 entry i=1 VPN=1d PPN=1e valid=1 dirty=0...
 [276157] R DRAM[3e000]
 * R 3d001
 [276158] R DRAM[3e001]
@@ -508740,6 +508902,7 @@ PTE found (VA=3d000 VPN=3d PA=3e000)
 * R 3e000
 [280253] R DRAM[0]
 PTE found (VA=3e000 VPN=3e PA=3f000)
+Evicting TLB L1 entry i=2 VPN=1e PPN=1f valid=1 dirty=0...
 [280353] R DRAM[3f000]
 * R 3e001
 [280354] R DRAM[3f001]
@@ -516934,6 +517097,7 @@ PTE found (VA=3e000 VPN=3e PA=3f000)
 * R 3f000
 [284449] R DRAM[0]
 PTE found (VA=3f000 VPN=3f PA=40000)
+Evicting TLB L1 entry i=3 VPN=1f PPN=20 valid=1 dirty=0...
 [284549] R DRAM[40000]
 * R 3f001
 [284550] R DRAM[40001]
@@ -525128,6 +525292,7 @@ PTE found (VA=3f000 VPN=3f PA=40000)
 * R 40000
 [288645] R DRAM[0]
 PTE found (VA=40000 VPN=40 PA=41000)
+Evicting TLB L1 entry i=4 VPN=20 PPN=21 valid=1 dirty=0...
 [288745] R DRAM[41000]
 * R 40001
 [288746] R DRAM[41001]
@@ -533322,6 +533487,7 @@ PTE found (VA=40000 VPN=40 PA=41000)
 * R 41000
 [292841] R DRAM[0]
 PTE found (VA=41000 VPN=41 PA=42000)
+Evicting TLB L1 entry i=5 VPN=21 PPN=22 valid=1 dirty=0...
 [292941] R DRAM[42000]
 * R 41001
 [292942] R DRAM[42001]
@@ -541516,6 +541682,7 @@ PTE found (VA=41000 VPN=41 PA=42000)
 * R 42000
 [297037] R DRAM[0]
 PTE found (VA=42000 VPN=42 PA=43000)
+Evicting TLB L1 entry i=6 VPN=22 PPN=23 valid=1 dirty=0...
 [297137] R DRAM[43000]
 * R 42001
 [297138] R DRAM[43001]
@@ -549710,6 +549877,7 @@ PTE found (VA=42000 VPN=42 PA=43000)
 * R 43000
 [301233] R DRAM[0]
 PTE found (VA=43000 VPN=43 PA=44000)
+Evicting TLB L1 entry i=7 VPN=23 PPN=24 valid=1 dirty=0...
 [301333] R DRAM[44000]
 * R 43001
 [301334] R DRAM[44001]
@@ -557904,6 +558072,7 @@ PTE found (VA=43000 VPN=43 PA=44000)
 * R 44000
 [305429] R DRAM[0]
 PTE found (VA=44000 VPN=44 PA=45000)
+Evicting TLB L1 entry i=8 VPN=24 PPN=25 valid=1 dirty=0...
 [305529] R DRAM[45000]
 * R 44001
 [305530] R DRAM[45001]
@@ -566098,6 +566267,7 @@ PTE found (VA=44000 VPN=44 PA=45000)
 * R 45000
 [309625] R DRAM[0]
 PTE found (VA=45000 VPN=45 PA=46000)
+Evicting TLB L1 entry i=9 VPN=25 PPN=26 valid=1 dirty=0...
 [309725] R DRAM[46000]
 * R 45001
 [309726] R DRAM[46001]
@@ -574292,6 +574462,7 @@ PTE found (VA=45000 VPN=45 PA=46000)
 * R 46000
 [313821] R DRAM[0]
 PTE found (VA=46000 VPN=46 PA=47000)
+Evicting TLB L1 entry i=10 VPN=26 PPN=27 valid=1 dirty=0...
 [313921] R DRAM[47000]
 * R 46001
 [313922] R DRAM[47001]
@@ -582486,6 +582657,7 @@ PTE found (VA=46000 VPN=46 PA=47000)
 * R 47000
 [318017] R DRAM[0]
 PTE found (VA=47000 VPN=47 PA=48000)
+Evicting TLB L1 entry i=11 VPN=27 PPN=28 valid=1 dirty=0...
 [318117] R DRAM[48000]
 * R 47001
 [318118] R DRAM[48001]
@@ -590680,6 +590852,7 @@ PTE found (VA=47000 VPN=47 PA=48000)
 * R 48000
 [322213] R DRAM[0]
 PTE found (VA=48000 VPN=48 PA=49000)
+Evicting TLB L1 entry i=12 VPN=28 PPN=29 valid=1 dirty=0...
 [322313] R DRAM[49000]
 * R 48001
 [322314] R DRAM[49001]
@@ -598874,6 +599047,7 @@ PTE found (VA=48000 VPN=48 PA=49000)
 * R 49000
 [326409] R DRAM[0]
 PTE found (VA=49000 VPN=49 PA=4a000)
+Evicting TLB L1 entry i=13 VPN=29 PPN=2a valid=1 dirty=0...
 [326509] R DRAM[4a000]
 * R 49001
 [326510] R DRAM[4a001]
@@ -607068,6 +607242,7 @@ PTE found (VA=49000 VPN=49 PA=4a000)
 * R 4a000
 [330605] R DRAM[0]
 PTE found (VA=4a000 VPN=4a PA=4b000)
+Evicting TLB L1 entry i=14 VPN=2a PPN=2b valid=1 dirty=0...
 [330705] R DRAM[4b000]
 * R 4a001
 [330706] R DRAM[4b001]
@@ -615262,6 +615437,7 @@ PTE found (VA=4a000 VPN=4a PA=4b000)
 * R 4b000
 [334801] R DRAM[0]
 PTE found (VA=4b000 VPN=4b PA=4c000)
+Evicting TLB L1 entry i=15 VPN=2b PPN=2c valid=1 dirty=0...
 [334901] R DRAM[4c000]
 * R 4b001
 [334902] R DRAM[4c001]
@@ -623456,6 +623632,7 @@ PTE found (VA=4b000 VPN=4b PA=4c000)
 * R 4c000
 [338997] R DRAM[0]
 PTE found (VA=4c000 VPN=4c PA=4d000)
+Evicting TLB L1 entry i=16 VPN=2c PPN=2d valid=1 dirty=0...
 [339097] R DRAM[4d000]
 * R 4c001
 [339098] R DRAM[4d001]
@@ -631650,6 +631827,7 @@ PTE found (VA=4c000 VPN=4c PA=4d000)
 * R 4d000
 [343193] R DRAM[0]
 PTE found (VA=4d000 VPN=4d PA=4e000)
+Evicting TLB L1 entry i=17 VPN=2d PPN=2e valid=1 dirty=0...
 [343293] R DRAM[4e000]
 * R 4d001
 [343294] R DRAM[4e001]
@@ -639844,6 +640022,7 @@ PTE found (VA=4d000 VPN=4d PA=4e000)
 * R 4e000
 [347389] R DRAM[0]
 PTE found (VA=4e000 VPN=4e PA=4f000)
+Evicting TLB L1 entry i=18 VPN=2e PPN=2f valid=1 dirty=0...
 [347489] R DRAM[4f000]
 * R 4e001
 [347490] R DRAM[4f001]
@@ -648038,6 +648217,7 @@ PTE found (VA=4e000 VPN=4e PA=4f000)
 * R 4f000
 [351585] R DRAM[0]
 PTE found (VA=4f000 VPN=4f PA=50000)
+Evicting TLB L1 entry i=19 VPN=2f PPN=30 valid=1 dirty=0...
 [351685] R DRAM[50000]
 * R 4f001
 [351686] R DRAM[50001]
@@ -656232,6 +656412,7 @@ PTE found (VA=4f000 VPN=4f PA=50000)
 * R 50000
 [355781] R DRAM[0]
 PTE found (VA=50000 VPN=50 PA=51000)
+Evicting TLB L1 entry i=20 VPN=30 PPN=31 valid=1 dirty=0...
 [355881] R DRAM[51000]
 * R 50001
 [355882] R DRAM[51001]
@@ -664426,6 +664607,7 @@ PTE found (VA=50000 VPN=50 PA=51000)
 * R 51000
 [359977] R DRAM[0]
 PTE found (VA=51000 VPN=51 PA=52000)
+Evicting TLB L1 entry i=21 VPN=31 PPN=32 valid=1 dirty=0...
 [360077] R DRAM[52000]
 * R 51001
 [360078] R DRAM[52001]
@@ -672620,6 +672802,7 @@ PTE found (VA=51000 VPN=51 PA=52000)
 * R 52000
 [364173] R DRAM[0]
 PTE found (VA=52000 VPN=52 PA=53000)
+Evicting TLB L1 entry i=22 VPN=32 PPN=33 valid=1 dirty=0...
 [364273] R DRAM[53000]
 * R 52001
 [364274] R DRAM[53001]
@@ -680814,6 +680997,7 @@ PTE found (VA=52000 VPN=52 PA=53000)
 * R 53000
 [368369] R DRAM[0]
 PTE found (VA=53000 VPN=53 PA=54000)
+Evicting TLB L1 entry i=23 VPN=33 PPN=34 valid=1 dirty=0...
 [368469] R DRAM[54000]
 * R 53001
 [368470] R DRAM[54001]
@@ -689008,6 +689192,7 @@ PTE found (VA=53000 VPN=53 PA=54000)
 * R 54000
 [372565] R DRAM[0]
 PTE found (VA=54000 VPN=54 PA=55000)
+Evicting TLB L1 entry i=24 VPN=34 PPN=35 valid=1 dirty=0...
 [372665] R DRAM[55000]
 * R 54001
 [372666] R DRAM[55001]
@@ -697202,6 +697387,7 @@ PTE found (VA=54000 VPN=54 PA=55000)
 * R 55000
 [376761] R DRAM[0]
 PTE found (VA=55000 VPN=55 PA=56000)
+Evicting TLB L1 entry i=25 VPN=35 PPN=36 valid=1 dirty=0...
 [376861] R DRAM[56000]
 * R 55001
 [376862] R DRAM[56001]
@@ -705396,6 +705582,7 @@ PTE found (VA=55000 VPN=55 PA=56000)
 * R 56000
 [380957] R DRAM[0]
 PTE found (VA=56000 VPN=56 PA=57000)
+Evicting TLB L1 entry i=26 VPN=36 PPN=37 valid=1 dirty=0...
 [381057] R DRAM[57000]
 * R 56001
 [381058] R DRAM[57001]
@@ -713590,6 +713777,7 @@ PTE found (VA=56000 VPN=56 PA=57000)
 * R 57000
 [385153] R DRAM[0]
 PTE found (VA=57000 VPN=57 PA=58000)
+Evicting TLB L1 entry i=27 VPN=37 PPN=38 valid=1 dirty=0...
 [385253] R DRAM[58000]
 * R 57001
 [385254] R DRAM[58001]
@@ -721784,6 +721972,7 @@ PTE found (VA=57000 VPN=57 PA=58000)
 * R 58000
 [389349] R DRAM[0]
 PTE found (VA=58000 VPN=58 PA=59000)
+Evicting TLB L1 entry i=28 VPN=38 PPN=39 valid=1 dirty=0...
 [389449] R DRAM[59000]
 * R 58001
 [389450] R DRAM[59001]
@@ -729978,6 +730167,7 @@ PTE found (VA=58000 VPN=58 PA=59000)
 * R 59000
 [393545] R DRAM[0]
 PTE found (VA=59000 VPN=59 PA=5a000)
+Evicting TLB L1 entry i=29 VPN=39 PPN=3a valid=1 dirty=0...
 [393645] R DRAM[5a000]
 * R 59001
 [393646] R DRAM[5a001]
@@ -738172,6 +738362,7 @@ PTE found (VA=59000 VPN=59 PA=5a000)
 * R 5a000
 [397741] R DRAM[0]
 PTE found (VA=5a000 VPN=5a PA=5b000)
+Evicting TLB L1 entry i=30 VPN=3a PPN=3b valid=1 dirty=0...
 [397841] R DRAM[5b000]
 * R 5a001
 [397842] R DRAM[5b001]
@@ -746366,6 +746557,7 @@ PTE found (VA=5a000 VPN=5a PA=5b000)
 * R 5b000
 [401937] R DRAM[0]
 PTE found (VA=5b000 VPN=5b PA=5c000)
+Evicting TLB L1 entry i=31 VPN=3b PPN=3c valid=1 dirty=0...
 [402037] R DRAM[5c000]
 * R 5b001
 [402038] R DRAM[5c001]
@@ -754560,6 +754752,7 @@ PTE found (VA=5b000 VPN=5b PA=5c000)
 * R 5c000
 [406133] R DRAM[0]
 PTE found (VA=5c000 VPN=5c PA=5d000)
+Evicting TLB L1 entry i=0 VPN=3c PPN=3d valid=1 dirty=0...
 [406233] R DRAM[5d000]
 * R 5c001
 [406234] R DRAM[5d001]
@@ -762754,6 +762947,7 @@ PTE found (VA=5c000 VPN=5c PA=5d000)
 * R 5d000
 [410329] R DRAM[0]
 PTE found (VA=5d000 VPN=5d PA=5e000)
+Evicting TLB L1 entry i=1 VPN=3d PPN=3e valid=1 dirty=0...
 [410429] R DRAM[5e000]
 * R 5d001
 [410430] R DRAM[5e001]
@@ -770948,6 +771142,7 @@ PTE found (VA=5d000 VPN=5d PA=5e000)
 * R 5e000
 [414525] R DRAM[0]
 PTE found (VA=5e000 VPN=5e PA=5f000)
+Evicting TLB L1 entry i=2 VPN=3e PPN=3f valid=1 dirty=0...
 [414625] R DRAM[5f000]
 * R 5e001
 [414626] R DRAM[5f001]
@@ -779142,6 +779337,7 @@ PTE found (VA=5e000 VPN=5e PA=5f000)
 * R 5f000
 [418721] R DRAM[0]
 PTE found (VA=5f000 VPN=5f PA=60000)
+Evicting TLB L1 entry i=3 VPN=3f PPN=40 valid=1 dirty=0...
 [418821] R DRAM[60000]
 * R 5f001
 [418822] R DRAM[60001]
@@ -787336,6 +787532,7 @@ PTE found (VA=5f000 VPN=5f PA=60000)
 * R 60000
 [422917] R DRAM[0]
 PTE found (VA=60000 VPN=60 PA=61000)
+Evicting TLB L1 entry i=4 VPN=40 PPN=41 valid=1 dirty=0...
 [423017] R DRAM[61000]
 * R 60001
 [423018] R DRAM[61001]
@@ -795530,6 +795727,7 @@ PTE found (VA=60000 VPN=60 PA=61000)
 * R 61000
 [427113] R DRAM[0]
 PTE found (VA=61000 VPN=61 PA=62000)
+Evicting TLB L1 entry i=5 VPN=41 PPN=42 valid=1 dirty=0...
 [427213] R DRAM[62000]
 * R 61001
 [427214] R DRAM[62001]
@@ -803724,6 +803922,7 @@ PTE found (VA=61000 VPN=61 PA=62000)
 * R 62000
 [431309] R DRAM[0]
 PTE found (VA=62000 VPN=62 PA=63000)
+Evicting TLB L1 entry i=6 VPN=42 PPN=43 valid=1 dirty=0...
 [431409] R DRAM[63000]
 * R 62001
 [431410] R DRAM[63001]
@@ -811918,6 +812117,7 @@ PTE found (VA=62000 VPN=62 PA=63000)
 * R 63000
 [435505] R DRAM[0]
 PTE found (VA=63000 VPN=63 PA=64000)
+Evicting TLB L1 entry i=7 VPN=43 PPN=44 valid=1 dirty=0...
 [435605] R DRAM[64000]
 * R 63001
 [435606] R DRAM[64001]

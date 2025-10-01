@@ -13,11 +13,13 @@ Total pages:           1048576
 ***** Page fault! *****
 [1] W DRAM[0]
 PTE found (VA=3ff8d561 VPN=3ff8d PA=1561)
+Evicting TLB L1 entry i=0 VPN=0 PPN=0 valid=0 dirty=0...
 [101] R DRAM[1561]
 * R a737a988
 ***** Page fault! *****
 [102] W DRAM[0]
 PTE found (VA=a737a988 VPN=a737a PA=2988)
+Evicting TLB L1 entry i=1 VPN=0 PPN=0 valid=0 dirty=0...
 [202] R DRAM[2988]
 * R a737a3ac
 [203] R DRAM[23ac]
@@ -25,6 +27,7 @@ PTE found (VA=a737a988 VPN=a737a PA=2988)
 ***** Page fault! *****
 [204] W DRAM[0]
 PTE found (VA=ce0db27c VPN=ce0db PA=327c)
+Evicting TLB L1 entry i=2 VPN=0 PPN=0 valid=0 dirty=0...
 [304] R DRAM[327c]
 * W ce0db16f
 [305] W DRAM[316f]
@@ -50,11 +53,13 @@ PTE found (VA=ce0db27c VPN=ce0db PA=327c)
 ***** Page fault! *****
 [315] W DRAM[0]
 PTE found (VA=b995a6e2 VPN=b995a PA=46e2)
+Evicting TLB L1 entry i=3 VPN=0 PPN=0 valid=0 dirty=0...
 [415] R DRAM[46e2]
 * R 606ab6b6
 ***** Page fault! *****
 [416] W DRAM[0]
 PTE found (VA=606ab6b6 VPN=606ab PA=56b6)
+Evicting TLB L1 entry i=4 VPN=0 PPN=0 valid=0 dirty=0...
 [516] R DRAM[56b6]
 * R 606ab884
 [517] R DRAM[5884]
@@ -82,6 +87,7 @@ PTE found (VA=606ab6b6 VPN=606ab PA=56b6)
 ***** Page fault! *****
 [528] W DRAM[0]
 PTE found (VA=a42d24b4 VPN=a42d2 PA=64b4)
+Evicting TLB L1 entry i=5 VPN=0 PPN=0 valid=0 dirty=0...
 [628] W DRAM[64b4]
 * R a42d26e2
 [629] R DRAM[66e2]
@@ -91,6 +97,7 @@ PTE found (VA=a42d24b4 VPN=a42d2 PA=64b4)
 ***** Page fault! *****
 [631] W DRAM[0]
 PTE found (VA=f6152b20 VPN=f6152 PA=7b20)
+Evicting TLB L1 entry i=6 VPN=0 PPN=0 valid=0 dirty=0...
 [731] R DRAM[7b20]
 * R f61527da
 [732] R DRAM[77da]
@@ -102,6 +109,7 @@ PTE found (VA=f6152b20 VPN=f6152 PA=7b20)
 ***** Page fault! *****
 [735] W DRAM[0]
 PTE found (VA=8241e2cc VPN=8241e PA=82cc)
+Evicting TLB L1 entry i=7 VPN=0 PPN=0 valid=0 dirty=0...
 [835] R DRAM[82cc]
 * R 8241e0a1
 [836] R DRAM[80a1]
@@ -109,6 +117,7 @@ PTE found (VA=8241e2cc VPN=8241e PA=82cc)
 ***** Page fault! *****
 [837] W DRAM[0]
 PTE found (VA=7aebf061 VPN=7aebf PA=9061)
+Evicting TLB L1 entry i=8 VPN=0 PPN=0 valid=0 dirty=0...
 [937] R DRAM[9061]
 * W 7aebfe52
 [938] W DRAM[9e52]
@@ -148,6 +157,7 @@ PTE found (VA=7aebf061 VPN=7aebf PA=9061)
 ***** Page fault! *****
 [955] W DRAM[0]
 PTE found (VA=b28998c7 VPN=b2899 PA=a8c7)
+Evicting TLB L1 entry i=9 VPN=0 PPN=0 valid=0 dirty=0...
 [1055] W DRAM[a8c7]
 * R b2899943
 [1056] R DRAM[a943]
@@ -167,6 +177,7 @@ PTE found (VA=b28998c7 VPN=b2899 PA=a8c7)
 ***** Page fault! *****
 [1063] W DRAM[0]
 PTE found (VA=e91a6b23 VPN=e91a6 PA=bb23)
+Evicting TLB L1 entry i=10 VPN=0 PPN=0 valid=0 dirty=0...
 [1163] W DRAM[bb23]
 * W e91a683c
 [1164] W DRAM[b83c]
@@ -184,6 +195,7 @@ PTE found (VA=e91a6b23 VPN=e91a6 PA=bb23)
 ***** Page fault! *****
 [1170] W DRAM[0]
 PTE found (VA=728bf248 VPN=728bf PA=c248)
+Evicting TLB L1 entry i=11 VPN=0 PPN=0 valid=0 dirty=0...
 [1270] W DRAM[c248]
 * R 728bfc9e
 [1271] R DRAM[cc9e]
@@ -201,6 +213,7 @@ PTE found (VA=728bf248 VPN=728bf PA=c248)
 ***** Page fault! *****
 [1277] W DRAM[0]
 PTE found (VA=1edc1597 VPN=1edc1 PA=d597)
+Evicting TLB L1 entry i=12 VPN=0 PPN=0 valid=0 dirty=0...
 [1377] W DRAM[d597]
 * W 1edc1e36
 [1378] W DRAM[de36]
@@ -222,11 +235,13 @@ PTE found (VA=1edc1597 VPN=1edc1 PA=d597)
 ***** Page fault! *****
 [1386] W DRAM[0]
 PTE found (VA=2bc630eb VPN=2bc63 PA=e0eb)
+Evicting TLB L1 entry i=13 VPN=0 PPN=0 valid=0 dirty=0...
 [1486] R DRAM[e0eb]
 * R ef523e21
 ***** Page fault! *****
 [1487] W DRAM[0]
 PTE found (VA=ef523e21 VPN=ef523 PA=fe21)
+Evicting TLB L1 entry i=14 VPN=0 PPN=0 valid=0 dirty=0...
 [1587] R DRAM[fe21]
 * W ef5230be
 [1588] W DRAM[f0be]
@@ -248,6 +263,7 @@ PTE found (VA=ef523e21 VPN=ef523 PA=fe21)
 ***** Page fault! *****
 [1596] W DRAM[0]
 PTE found (VA=54be5114 VPN=54be5 PA=10114)
+Evicting TLB L1 entry i=15 VPN=0 PPN=0 valid=0 dirty=0...
 [1696] W DRAM[10114]
 * R 54be55ff
 [1697] R DRAM[105ff]
@@ -267,6 +283,7 @@ PTE found (VA=54be5114 VPN=54be5 PA=10114)
 ***** Page fault! *****
 [1704] W DRAM[0]
 PTE found (VA=13a07f79 VPN=13a07 PA=11f79)
+Evicting TLB L1 entry i=16 VPN=0 PPN=0 valid=0 dirty=0...
 [1804] W DRAM[11f79]
 * W 13a07a1d
 [1805] W DRAM[11a1d]
@@ -304,6 +321,7 @@ PTE found (VA=13a07f79 VPN=13a07 PA=11f79)
 ***** Page fault! *****
 [1821] W DRAM[0]
 PTE found (VA=9e487528 VPN=9e487 PA=12528)
+Evicting TLB L1 entry i=17 VPN=0 PPN=0 valid=0 dirty=0...
 [1921] W DRAM[12528]
 * R 9e487d69
 [1922] R DRAM[12d69]
@@ -327,6 +345,7 @@ PTE found (VA=9e487528 VPN=9e487 PA=12528)
 ***** Page fault! *****
 [1931] W DRAM[0]
 PTE found (VA=56fc8ba8 VPN=56fc8 PA=13ba8)
+Evicting TLB L1 entry i=18 VPN=0 PPN=0 valid=0 dirty=0...
 [2031] W DRAM[13ba8]
 * R 56fc8db5
 [2032] R DRAM[13db5]
@@ -346,6 +365,7 @@ PTE found (VA=56fc8ba8 VPN=56fc8 PA=13ba8)
 ***** Page fault! *****
 [2039] W DRAM[0]
 PTE found (VA=198a9739 VPN=198a9 PA=14739)
+Evicting TLB L1 entry i=19 VPN=0 PPN=0 valid=0 dirty=0...
 [2139] R DRAM[14739]
 * W 198a9735
 [2140] W DRAM[14735]
@@ -357,6 +377,7 @@ PTE found (VA=198a9739 VPN=198a9 PA=14739)
 ***** Page fault! *****
 [2143] W DRAM[0]
 PTE found (VA=ed4ff5f2 VPN=ed4ff PA=155f2)
+Evicting TLB L1 entry i=20 VPN=0 PPN=0 valid=0 dirty=0...
 [2243] W DRAM[155f2]
 * W ed4ff093
 [2244] W DRAM[15093]
@@ -376,6 +397,7 @@ PTE found (VA=ed4ff5f2 VPN=ed4ff PA=155f2)
 ***** Page fault! *****
 [2251] W DRAM[0]
 PTE found (VA=db4ca7e7 VPN=db4ca PA=167e7)
+Evicting TLB L1 entry i=21 VPN=0 PPN=0 valid=0 dirty=0...
 [2351] W DRAM[167e7]
 * R db4cae08
 [2352] R DRAM[16e08]
@@ -425,6 +447,7 @@ PTE found (VA=db4ca7e7 VPN=db4ca PA=167e7)
 ***** Page fault! *****
 [2374] W DRAM[0]
 PTE found (VA=a67aa1e1 VPN=a67aa PA=171e1)
+Evicting TLB L1 entry i=22 VPN=0 PPN=0 valid=0 dirty=0...
 [2474] R DRAM[171e1]
 * R a67aae0b
 [2475] R DRAM[17e0b]
@@ -460,6 +483,7 @@ PTE found (VA=a67aa1e1 VPN=a67aa PA=171e1)
 ***** Page fault! *****
 [2490] W DRAM[0]
 PTE found (VA=e242c5a8 VPN=e242c PA=185a8)
+Evicting TLB L1 entry i=23 VPN=0 PPN=0 valid=0 dirty=0...
 [2590] W DRAM[185a8]
 * R e242c615
 [2591] R DRAM[18615]
@@ -509,6 +533,7 @@ PTE found (VA=e242c5a8 VPN=e242c PA=185a8)
 ***** Page fault! *****
 [2613] W DRAM[0]
 PTE found (VA=577331e8 VPN=57733 PA=191e8)
+Evicting TLB L1 entry i=24 VPN=0 PPN=0 valid=0 dirty=0...
 [2713] R DRAM[191e8]
 * R 57733760
 [2714] R DRAM[19760]
@@ -534,6 +559,7 @@ PTE found (VA=577331e8 VPN=57733 PA=191e8)
 ***** Page fault! *****
 [2724] W DRAM[0]
 PTE found (VA=38f946ea VPN=38f94 PA=1a6ea)
+Evicting TLB L1 entry i=25 VPN=0 PPN=0 valid=0 dirty=0...
 [2824] W DRAM[1a6ea]
 * W 38f94c20
 [2825] W DRAM[1ac20]
@@ -561,16 +587,19 @@ PTE found (VA=38f946ea VPN=38f94 PA=1a6ea)
 ***** Page fault! *****
 [2836] W DRAM[0]
 PTE found (VA=967367dd VPN=96736 PA=1b7dd)
+Evicting TLB L1 entry i=26 VPN=0 PPN=0 valid=0 dirty=0...
 [2936] R DRAM[1b7dd]
 * W 2fb39f4f
 ***** Page fault! *****
 [2937] W DRAM[0]
 PTE found (VA=2fb39f4f VPN=2fb39 PA=1cf4f)
+Evicting TLB L1 entry i=27 VPN=0 PPN=0 valid=0 dirty=0...
 [3037] W DRAM[1cf4f]
 * W 2b6ba285
 ***** Page fault! *****
 [3038] W DRAM[0]
 PTE found (VA=2b6ba285 VPN=2b6ba PA=1d285)
+Evicting TLB L1 entry i=28 VPN=0 PPN=0 valid=0 dirty=0...
 [3138] W DRAM[1d285]
 * W 2b6bac50
 [3139] W DRAM[1dc50]
@@ -620,6 +649,7 @@ PTE found (VA=2b6ba285 VPN=2b6ba PA=1d285)
 ***** Page fault! *****
 [3161] W DRAM[0]
 PTE found (VA=1a29b02c VPN=1a29b PA=1e02c)
+Evicting TLB L1 entry i=29 VPN=0 PPN=0 valid=0 dirty=0...
 [3261] W DRAM[1e02c]
 * R 1a29b111
 [3262] R DRAM[1e111]
@@ -647,11 +677,13 @@ PTE found (VA=1a29b02c VPN=1a29b PA=1e02c)
 ***** Page fault! *****
 [3273] W DRAM[0]
 PTE found (VA=9991b90b VPN=9991b PA=1f90b)
+Evicting TLB L1 entry i=30 VPN=0 PPN=0 valid=0 dirty=0...
 [3373] R DRAM[1f90b]
 * R e9a7d7af
 ***** Page fault! *****
 [3374] W DRAM[0]
 PTE found (VA=e9a7d7af VPN=e9a7d PA=207af)
+Evicting TLB L1 entry i=31 VPN=0 PPN=0 valid=0 dirty=0...
 [3474] R DRAM[207af]
 * R e9a7d4b1
 [3475] R DRAM[204b1]

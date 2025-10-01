@@ -104,8 +104,6 @@ pa_dram_t randomly_evict_page_from_dram() {
         disk_page_address >> PAGE_SIZE_BITS;
 
     disk_access(disk_page_address, OP_WRITE);
-
-    tlb_invalidate(evicted_virtual_page_number);
   } else {
     log_dbg("***** Evicting page %" PRIx64 " *****",
             evicted_virtual_page_number);
@@ -116,6 +114,7 @@ pa_dram_t randomly_evict_page_from_dram() {
 
   allocated_dram_pages[evicted_virtual_page_number] = false;
 
+  tlb_invalidate(evicted_virtual_page_number);
   dram_access(PAGE_TABLE_DRAM_ADDRESS, OP_READ);
 
   return evicted_virtual_page_number << PAGE_SIZE_BITS;
