@@ -89,13 +89,9 @@ static void tlb_evict_entry(tlb_entry_t* entry, bool write_back) {
   if (entry->valid && entry->dirty && write_back)
     write_back_tlb_entry(entry->physical_page_number << PAGE_SIZE_BITS);
   entry->valid = false;
-  entry->dirty = false;
-  entry->last_access = 0;
-  entry->physical_page_number = 0;
-  entry->physical_page_number = 0;
 }
 
-static tlb_entry_t* tlb_replace_entry(tlb_entry_t* tlb, size_t tlb_size, va_t virtual_page_number,
+static tlb_entry_t* tlb_write_entry(tlb_entry_t* tlb, size_t tlb_size, va_t virtual_page_number,
   pa_dram_t physical_page_number, bool dirty, bool write_back) {
 
   tlb_entry_t* entry = tlb_select_victim(tlb, tlb_size);
@@ -134,28 +130,26 @@ void tlb_invalidate(va_t virtual_page_number) {
 }
 
 pa_dram_t tlb_translate(va_t virtual_address, op_t op) {
-
   increment_time(TLB_L1_LATENCY_NS);
   va_t virtual_page_number = (virtual_address >> PAGE_SIZE_BITS) & PAGE_INDEX_MASK;
   va_t offset = virtual_address & PAGE_OFFSET_MASK;
   tlb_entry_t* entry = tlb_lookup(tlb_l1, TLB_L1_SIZE, virtual_page_number);
   if (entry)
     return tlb_hit(entry, op, offset, &tlb_l1_hits);
-
   tlb_l1_misses++;
-  increment_time(TLB_L2_LATENCY_NS);
 
+  increment_time(TLB_L2_LATENCY_NS);
   entry = tlb_lookup(tlb_l2, TLB_L2_SIZE, virtual_page_number);
   if (entry) {
     pa_dram_t physical_address = tlb_hit(entry, op, offset, &tlb_l2_hits);
-    tlb_replace_entry(tlb_l1, TLB_L1_SIZE, virtual_page_number, entry->physical_page_number, entry->dirty, false);
+    tlb_write_entry(tlb_l1, TLB_L1_SIZE, virtual_page_number, entry->physical_page_number, entry->dirty, false);
     return physical_address;
   }
 
   tlb_l2_misses++;
   pa_dram_t physical_address = page_table_translate(virtual_address, op);
   pa_dram_t physical_page_number = physical_address >> PAGE_SIZE_BITS;
-  tlb_replace_entry(tlb_l2, TLB_L2_SIZE, virtual_page_number, physical_page_number, (op == OP_WRITE), true);
-  tlb_replace_entry(tlb_l1, TLB_L1_SIZE, virtual_page_number, physical_page_number, (op == OP_WRITE), false);
+  tlb_write_entry(tlb_l2, TLB_L2_SIZE, virtual_page_number, physical_page_number, (op == OP_WRITE), true);
+  tlb_write_entry(tlb_l1, TLB_L1_SIZE, virtual_page_number, physical_page_number, (op == OP_WRITE), false);
   return physical_address;
 }
