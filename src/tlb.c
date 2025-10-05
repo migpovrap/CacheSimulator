@@ -106,7 +106,7 @@ static tlb_entry_t* tlb_write_entry(tlb_entry_t* tlb, size_t tlb_size, va_t virt
 }
 
 static pa_dram_t tlb_hit(tlb_entry_t* entry, op_t op, va_t offset, uint64_t* hit_counter) {
-  (*hit_counter)++;
+  ++(*hit_counter);
   entry->last_access = get_time();
   if (op == OP_WRITE)
     entry->dirty = true;
@@ -118,14 +118,13 @@ void tlb_invalidate(va_t virtual_page_number) {
   tlb_entry_t* entry = tlb_lookup(tlb_l1, TLB_L1_SIZE, virtual_page_number);
   if (entry) {
     tlb_evict_entry(entry, false);
-    tlb_l1_invalidations++;
+    ++tlb_l1_invalidations;
   }
-
   increment_time(TLB_L2_LATENCY_NS);
   entry = tlb_lookup(tlb_l2, TLB_L2_SIZE, virtual_page_number);
   if (entry) {
     tlb_evict_entry(entry, true);
-    tlb_l2_invalidations++;
+    ++tlb_l2_invalidations;
   }
 }
 
@@ -136,7 +135,7 @@ pa_dram_t tlb_translate(va_t virtual_address, op_t op) {
   tlb_entry_t* entry = tlb_lookup(tlb_l1, TLB_L1_SIZE, virtual_page_number);
   if (entry)
     return tlb_hit(entry, op, offset, &tlb_l1_hits);
-  tlb_l1_misses++;
+  ++tlb_l1_misses;
 
   increment_time(TLB_L2_LATENCY_NS);
   entry = tlb_lookup(tlb_l2, TLB_L2_SIZE, virtual_page_number);
@@ -146,7 +145,7 @@ pa_dram_t tlb_translate(va_t virtual_address, op_t op) {
     return physical_address;
   }
 
-  tlb_l2_misses++;
+  ++tlb_l2_misses;
   pa_dram_t physical_address = page_table_translate(virtual_address, op);
   pa_dram_t physical_page_number = physical_address >> PAGE_SIZE_BITS;
   tlb_write_entry(tlb_l2, TLB_L2_SIZE, virtual_page_number, physical_page_number, (op == OP_WRITE), true);
