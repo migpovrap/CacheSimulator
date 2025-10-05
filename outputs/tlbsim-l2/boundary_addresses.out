@@ -1,0 +1,22 @@
+[3] W DRAM[0]
+[103] R DRAM[1fff]
+[106] W DRAM[0]
+[206] R DRAM[2000]
+[207] W DRAM[2001]
+[208] R DRAM[2fff]
+[211] W DRAM[0]
+[311] W DRAM[3000]
+[314] W DRAM[0]
+[414] R DRAM[4000]
+[415] W DRAM[4123]
+[418] W DRAM[0]
+[518] R DRAM[5000]
+[519] W DRAM[5abc]
+Elapsed: 519 ns
+Total instructions executed: 9
+Total page faults: 5
+Total page evictions: 0
+Total TLB L1 hits: 4 (44.44%)
+Total TLB L2 hits: 0 (0.00%)
+Total TLB L1 invalidations: 0
+Total TLB L2 invalidations: 0

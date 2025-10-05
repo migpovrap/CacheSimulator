@@ -1,0 +1,627 @@
+[3] W DRAM[0]
+[103] R DRAM[1000]
+[106] W DRAM[0]
+[206] R DRAM[2000]
+[209] W DRAM[0]
+[309] R DRAM[3000]
+[312] W DRAM[0]
+[412] R DRAM[4000]
+[415] W DRAM[0]
+[515] R DRAM[5000]
+[518] W DRAM[0]
+[618] R DRAM[6000]
+[621] W DRAM[0]
+[721] R DRAM[7000]
+[724] W DRAM[0]
+[824] R DRAM[8000]
+[827] W DRAM[0]
+[927] R DRAM[9000]
+[930] W DRAM[0]
+[1030] R DRAM[a000]
+[1033] W DRAM[0]
+[1133] R DRAM[b000]
+[1136] W DRAM[0]
+[1236] R DRAM[c000]
+[1239] W DRAM[0]
+[1339] R DRAM[d000]
+[1342] W DRAM[0]
+[1442] R DRAM[e000]
+[1445] W DRAM[0]
+[1545] R DRAM[f000]
+[1548] W DRAM[0]
+[1648] R DRAM[10000]
+[1651] W DRAM[0]
+[1751] R DRAM[11000]
+[1754] W DRAM[0]
+[1854] R DRAM[12000]
+[1857] W DRAM[0]
+[1957] R DRAM[13000]
+[1960] W DRAM[0]
+[2060] R DRAM[14000]
+[2063] W DRAM[0]
+[2163] R DRAM[15000]
+[2166] W DRAM[0]
+[2266] R DRAM[16000]
+[2269] W DRAM[0]
+[2369] R DRAM[17000]
+[2372] W DRAM[0]
+[2472] R DRAM[18000]
+[2475] W DRAM[0]
+[2575] R DRAM[19000]
+[2578] W DRAM[0]
+[2678] R DRAM[1a000]
+[2681] W DRAM[0]
+[2781] R DRAM[1b000]
+[2784] W DRAM[0]
+[2884] R DRAM[1c000]
+[2887] W DRAM[0]
+[2987] R DRAM[1d000]
+[2990] W DRAM[0]
+[3090] R DRAM[1e000]
+[3093] W DRAM[0]
+[3193] R DRAM[1f000]
+[3196] W DRAM[0]
+[3296] R DRAM[20000]
+[3299] W DRAM[0]
+[3399] R DRAM[21000]
+[3402] W DRAM[0]
+[3502] R DRAM[22000]
+[3505] W DRAM[0]
+[3605] R DRAM[23000]
+[3608] W DRAM[0]
+[3708] R DRAM[24000]
+[3711] W DRAM[0]
+[3811] R DRAM[25000]
+[3814] W DRAM[0]
+[3914] R DRAM[26000]
+[3917] W DRAM[0]
+[4017] R DRAM[27000]
+[4020] W DRAM[0]
+[4120] R DRAM[28000]
+[4123] W DRAM[0]
+[4223] R DRAM[29000]
+[4226] W DRAM[0]
+[4326] R DRAM[2a000]
+[4329] W DRAM[0]
+[4429] R DRAM[2b000]
+[4432] W DRAM[0]
+[4532] R DRAM[2c000]
+[4535] W DRAM[0]
+[4635] R DRAM[2d000]
+[4638] W DRAM[0]
+[4738] R DRAM[2e000]
+[4741] W DRAM[0]
+[4841] R DRAM[2f000]
+[4844] W DRAM[0]
+[4944] R DRAM[30000]
+[4947] W DRAM[0]
+[5047] R DRAM[31000]
+[5050] W DRAM[0]
+[5150] R DRAM[32000]
+[5153] W DRAM[0]
+[5253] R DRAM[33000]
+[5256] W DRAM[0]
+[5356] R DRAM[34000]
+[5359] W DRAM[0]
+[5459] R DRAM[35000]
+[5462] W DRAM[0]
+[5562] R DRAM[36000]
+[5565] W DRAM[0]
+[5665] R DRAM[37000]
+[5668] W DRAM[0]
+[5768] R DRAM[38000]
+[5771] W DRAM[0]
+[5871] R DRAM[39000]
+[5874] W DRAM[0]
+[5974] R DRAM[3a000]
+[5977] W DRAM[0]
+[6077] R DRAM[3b000]
+[6080] W DRAM[0]
+[6180] R DRAM[3c000]
+[6183] W DRAM[0]
+[6283] R DRAM[3d000]
+[6286] W DRAM[0]
+[6386] R DRAM[3e000]
+[6389] W DRAM[0]
+[6489] R DRAM[3f000]
+[6492] W DRAM[0]
+[6592] R DRAM[40000]
+[6595] W DRAM[0]
+[6695] R DRAM[41000]
+[6698] W DRAM[0]
+[6798] R DRAM[42000]
+[6801] W DRAM[0]
+[6901] R DRAM[43000]
+[6904] W DRAM[0]
+[7004] R DRAM[44000]
+[7007] W DRAM[0]
+[7107] R DRAM[45000]
+[7110] W DRAM[0]
+[7210] R DRAM[46000]
+[7213] W DRAM[0]
+[7313] R DRAM[47000]
+[7316] W DRAM[0]
+[7416] R DRAM[48000]
+[7419] W DRAM[0]
+[7519] R DRAM[49000]
+[7522] W DRAM[0]
+[7622] R DRAM[4a000]
+[7625] W DRAM[0]
+[7725] R DRAM[4b000]
+[7728] W DRAM[0]
+[7828] R DRAM[4c000]
+[7831] W DRAM[0]
+[7931] R DRAM[4d000]
+[7934] W DRAM[0]
+[8034] R DRAM[4e000]
+[8037] W DRAM[0]
+[8137] R DRAM[4f000]
+[8140] W DRAM[0]
+[8240] R DRAM[50000]
+[8243] W DRAM[0]
+[8343] R DRAM[51000]
+[8346] W DRAM[0]
+[8446] R DRAM[52000]
+[8449] W DRAM[0]
+[8549] R DRAM[53000]
+[8552] W DRAM[0]
+[8652] R DRAM[54000]
+[8655] W DRAM[0]
+[8755] R DRAM[55000]
+[8758] W DRAM[0]
+[8858] R DRAM[56000]
+[8861] W DRAM[0]
+[8961] R DRAM[57000]
+[8964] W DRAM[0]
+[9064] R DRAM[58000]
+[9067] W DRAM[0]
+[9167] R DRAM[59000]
+[9170] W DRAM[0]
+[9270] R DRAM[5a000]
+[9273] W DRAM[0]
+[9373] R DRAM[5b000]
+[9376] W DRAM[0]
+[9476] R DRAM[5c000]
+[9479] W DRAM[0]
+[9579] R DRAM[5d000]
+[9582] W DRAM[0]
+[9682] R DRAM[5e000]
+[9685] W DRAM[0]
+[9785] R DRAM[5f000]
+[9788] W DRAM[0]
+[9888] R DRAM[60000]
+[9891] W DRAM[1000]
+[9894] W DRAM[2000]
+[9897] W DRAM[3000]
+[9900] W DRAM[4000]
+[9903] W DRAM[5000]
+[9906] W DRAM[6000]
+[9909] W DRAM[7000]
+[9912] W DRAM[8000]
+[9915] W DRAM[9000]
+[9918] W DRAM[a000]
+[9921] W DRAM[b000]
+[9924] W DRAM[c000]
+[9927] W DRAM[d000]
+[9930] W DRAM[e000]
+[9933] W DRAM[f000]
+[9936] W DRAM[10000]
+[9939] W DRAM[11000]
+[9942] W DRAM[12000]
+[9945] W DRAM[13000]
+[9948] W DRAM[14000]
+[9951] W DRAM[15000]
+[9954] W DRAM[16000]
+[9957] W DRAM[17000]
+[9960] W DRAM[18000]
+[9963] W DRAM[19000]
+[9966] W DRAM[1a000]
+[9969] W DRAM[1b000]
+[9972] W DRAM[1c000]
+[9975] W DRAM[1d000]
+[9978] W DRAM[1e000]
+[9981] W DRAM[1f000]
+[9984] W DRAM[20000]
+[9987] R DRAM[21000]
+[9990] R DRAM[22000]
+[9993] R DRAM[23000]
+[9996] R DRAM[24000]
+[9999] R DRAM[25000]
+[10002] R DRAM[26000]
+[10005] R DRAM[27000]
+[10008] R DRAM[28000]
+[10011] R DRAM[29000]
+[10014] R DRAM[2a000]
+[10017] R DRAM[2b000]
+[10020] R DRAM[2c000]
+[10023] R DRAM[2d000]
+[10026] R DRAM[2e000]
+[10029] R DRAM[2f000]
+[10032] R DRAM[30000]
+[10035] R DRAM[31000]
+[10038] R DRAM[32000]
+[10041] R DRAM[33000]
+[10044] R DRAM[34000]
+[10047] R DRAM[35000]
+[10050] R DRAM[36000]
+[10053] R DRAM[37000]
+[10056] R DRAM[38000]
+[10059] R DRAM[39000]
+[10062] R DRAM[3a000]
+[10065] R DRAM[3b000]
+[10068] R DRAM[3c000]
+[10071] R DRAM[3d000]
+[10074] R DRAM[3e000]
+[10077] R DRAM[3f000]
+[10080] R DRAM[40000]
+Elapsed: 10080 ns
+Total instructions executed: 160
+Total page faults: 96
+Total page evictions: 0
+Total TLB L1 hits: 0 (0.00%)
+Total TLB L2 hits: 64 (40.00%)
+Total TLB L1 invalidations: 0
+Total TLB L2 invalidations: 0
+=========== System Properties ===========
+Virtual address:       32 bits
+Page index:            12 bits
+DRAM address:          28 bits
+Disk address:          48 bits
+Virtual address space: 4294967296 B
+DRAM address space:    268435456 B
+Disk address space:    281474976710656 B
+Page size:             4096 B
+Total pages:           1048576
+=========================================
+* R 2000000
+***** Page fault! *****
+PTE found (VA=2000000 VPN=2000 PA=1000)
+* R 2001000
+***** Page fault! *****
+PTE found (VA=2001000 VPN=2001 PA=2000)
+* R 2002000
+***** Page fault! *****
+PTE found (VA=2002000 VPN=2002 PA=3000)
+* R 2003000
+***** Page fault! *****
+PTE found (VA=2003000 VPN=2003 PA=4000)
+* R 2004000
+***** Page fault! *****
+PTE found (VA=2004000 VPN=2004 PA=5000)
+* R 2005000
+***** Page fault! *****
+PTE found (VA=2005000 VPN=2005 PA=6000)
+* R 2006000
+***** Page fault! *****
+PTE found (VA=2006000 VPN=2006 PA=7000)
+* R 2007000
+***** Page fault! *****
+PTE found (VA=2007000 VPN=2007 PA=8000)
+* R 2008000
+***** Page fault! *****
+PTE found (VA=2008000 VPN=2008 PA=9000)
+* R 2009000
+***** Page fault! *****
+PTE found (VA=2009000 VPN=2009 PA=a000)
+* R 200a000
+***** Page fault! *****
+PTE found (VA=200a000 VPN=200a PA=b000)
+* R 200b000
+***** Page fault! *****
+PTE found (VA=200b000 VPN=200b PA=c000)
+* R 200c000
+***** Page fault! *****
+PTE found (VA=200c000 VPN=200c PA=d000)
+* R 200d000
+***** Page fault! *****
+PTE found (VA=200d000 VPN=200d PA=e000)
+* R 200e000
+***** Page fault! *****
+PTE found (VA=200e000 VPN=200e PA=f000)
+* R 200f000
+***** Page fault! *****
+PTE found (VA=200f000 VPN=200f PA=10000)
+* R 2010000
+***** Page fault! *****
+PTE found (VA=2010000 VPN=2010 PA=11000)
+* R 2011000
+***** Page fault! *****
+PTE found (VA=2011000 VPN=2011 PA=12000)
+* R 2012000
+***** Page fault! *****
+PTE found (VA=2012000 VPN=2012 PA=13000)
+* R 2013000
+***** Page fault! *****
+PTE found (VA=2013000 VPN=2013 PA=14000)
+* R 2014000
+***** Page fault! *****
+PTE found (VA=2014000 VPN=2014 PA=15000)
+* R 2015000
+***** Page fault! *****
+PTE found (VA=2015000 VPN=2015 PA=16000)
+* R 2016000
+***** Page fault! *****
+PTE found (VA=2016000 VPN=2016 PA=17000)
+* R 2017000
+***** Page fault! *****
+PTE found (VA=2017000 VPN=2017 PA=18000)
+* R 2018000
+***** Page fault! *****
+PTE found (VA=2018000 VPN=2018 PA=19000)
+* R 2019000
+***** Page fault! *****
+PTE found (VA=2019000 VPN=2019 PA=1a000)
+* R 201a000
+***** Page fault! *****
+PTE found (VA=201a000 VPN=201a PA=1b000)
+* R 201b000
+***** Page fault! *****
+PTE found (VA=201b000 VPN=201b PA=1c000)
+* R 201c000
+***** Page fault! *****
+PTE found (VA=201c000 VPN=201c PA=1d000)
+* R 201d000
+***** Page fault! *****
+PTE found (VA=201d000 VPN=201d PA=1e000)
+* R 201e000
+***** Page fault! *****
+PTE found (VA=201e000 VPN=201e PA=1f000)
+* R 201f000
+***** Page fault! *****
+PTE found (VA=201f000 VPN=201f PA=20000)
+* R 2020000
+***** Page fault! *****
+PTE found (VA=2020000 VPN=2020 PA=21000)
+* R 2021000
+***** Page fault! *****
+PTE found (VA=2021000 VPN=2021 PA=22000)
+* R 2022000
+***** Page fault! *****
+PTE found (VA=2022000 VPN=2022 PA=23000)
+* R 2023000
+***** Page fault! *****
+PTE found (VA=2023000 VPN=2023 PA=24000)
+* R 2024000
+***** Page fault! *****
+PTE found (VA=2024000 VPN=2024 PA=25000)
+* R 2025000
+***** Page fault! *****
+PTE found (VA=2025000 VPN=2025 PA=26000)
+* R 2026000
+***** Page fault! *****
+PTE found (VA=2026000 VPN=2026 PA=27000)
+* R 2027000
+***** Page fault! *****
+PTE found (VA=2027000 VPN=2027 PA=28000)
+* R 2028000
+***** Page fault! *****
+PTE found (VA=2028000 VPN=2028 PA=29000)
+* R 2029000
+***** Page fault! *****
+PTE found (VA=2029000 VPN=2029 PA=2a000)
+* R 202a000
+***** Page fault! *****
+PTE found (VA=202a000 VPN=202a PA=2b000)
+* R 202b000
+***** Page fault! *****
+PTE found (VA=202b000 VPN=202b PA=2c000)
+* R 202c000
+***** Page fault! *****
+PTE found (VA=202c000 VPN=202c PA=2d000)
+* R 202d000
+***** Page fault! *****
+PTE found (VA=202d000 VPN=202d PA=2e000)
+* R 202e000
+***** Page fault! *****
+PTE found (VA=202e000 VPN=202e PA=2f000)
+* R 202f000
+***** Page fault! *****
+PTE found (VA=202f000 VPN=202f PA=30000)
+* R 2030000
+***** Page fault! *****
+PTE found (VA=2030000 VPN=2030 PA=31000)
+* R 2031000
+***** Page fault! *****
+PTE found (VA=2031000 VPN=2031 PA=32000)
+* R 2032000
+***** Page fault! *****
+PTE found (VA=2032000 VPN=2032 PA=33000)
+* R 2033000
+***** Page fault! *****
+PTE found (VA=2033000 VPN=2033 PA=34000)
+* R 2034000
+***** Page fault! *****
+PTE found (VA=2034000 VPN=2034 PA=35000)
+* R 2035000
+***** Page fault! *****
+PTE found (VA=2035000 VPN=2035 PA=36000)
+* R 2036000
+***** Page fault! *****
+PTE found (VA=2036000 VPN=2036 PA=37000)
+* R 2037000
+***** Page fault! *****
+PTE found (VA=2037000 VPN=2037 PA=38000)
+* R 2038000
+***** Page fault! *****
+PTE found (VA=2038000 VPN=2038 PA=39000)
+* R 2039000
+***** Page fault! *****
+PTE found (VA=2039000 VPN=2039 PA=3a000)
+* R 203a000
+***** Page fault! *****
+PTE found (VA=203a000 VPN=203a PA=3b000)
+* R 203b000
+***** Page fault! *****
+PTE found (VA=203b000 VPN=203b PA=3c000)
+* R 203c000
+***** Page fault! *****
+PTE found (VA=203c000 VPN=203c PA=3d000)
+* R 203d000
+***** Page fault! *****
+PTE found (VA=203d000 VPN=203d PA=3e000)
+* R 203e000
+***** Page fault! *****
+PTE found (VA=203e000 VPN=203e PA=3f000)
+* R 203f000
+***** Page fault! *****
+PTE found (VA=203f000 VPN=203f PA=40000)
+* R 2040000
+***** Page fault! *****
+PTE found (VA=2040000 VPN=2040 PA=41000)
+* R 2041000
+***** Page fault! *****
+PTE found (VA=2041000 VPN=2041 PA=42000)
+* R 2042000
+***** Page fault! *****
+PTE found (VA=2042000 VPN=2042 PA=43000)
+* R 2043000
+***** Page fault! *****
+PTE found (VA=2043000 VPN=2043 PA=44000)
+* R 2044000
+***** Page fault! *****
+PTE found (VA=2044000 VPN=2044 PA=45000)
+* R 2045000
+***** Page fault! *****
+PTE found (VA=2045000 VPN=2045 PA=46000)
+* R 2046000
+***** Page fault! *****
+PTE found (VA=2046000 VPN=2046 PA=47000)
+* R 2047000
+***** Page fault! *****
+PTE found (VA=2047000 VPN=2047 PA=48000)
+* R 2048000
+***** Page fault! *****
+PTE found (VA=2048000 VPN=2048 PA=49000)
+* R 2049000
+***** Page fault! *****
+PTE found (VA=2049000 VPN=2049 PA=4a000)
+* R 204a000
+***** Page fault! *****
+PTE found (VA=204a000 VPN=204a PA=4b000)
+* R 204b000
+***** Page fault! *****
+PTE found (VA=204b000 VPN=204b PA=4c000)
+* R 204c000
+***** Page fault! *****
+PTE found (VA=204c000 VPN=204c PA=4d000)
+* R 204d000
+***** Page fault! *****
+PTE found (VA=204d000 VPN=204d PA=4e000)
+* R 204e000
+***** Page fault! *****
+PTE found (VA=204e000 VPN=204e PA=4f000)
+* R 204f000
+***** Page fault! *****
+PTE found (VA=204f000 VPN=204f PA=50000)
+* R 2050000
+***** Page fault! *****
+PTE found (VA=2050000 VPN=2050 PA=51000)
+* R 2051000
+***** Page fault! *****
+PTE found (VA=2051000 VPN=2051 PA=52000)
+* R 2052000
+***** Page fault! *****
+PTE found (VA=2052000 VPN=2052 PA=53000)
+* R 2053000
+***** Page fault! *****
+PTE found (VA=2053000 VPN=2053 PA=54000)
+* R 2054000
+***** Page fault! *****
+PTE found (VA=2054000 VPN=2054 PA=55000)
+* R 2055000
+***** Page fault! *****
+PTE found (VA=2055000 VPN=2055 PA=56000)
+* R 2056000
+***** Page fault! *****
+PTE found (VA=2056000 VPN=2056 PA=57000)
+* R 2057000
+***** Page fault! *****
+PTE found (VA=2057000 VPN=2057 PA=58000)
+* R 2058000
+***** Page fault! *****
+PTE found (VA=2058000 VPN=2058 PA=59000)
+* R 2059000
+***** Page fault! *****
+PTE found (VA=2059000 VPN=2059 PA=5a000)
+* R 205a000
+***** Page fault! *****
+PTE found (VA=205a000 VPN=205a PA=5b000)
+* R 205b000
+***** Page fault! *****
+PTE found (VA=205b000 VPN=205b PA=5c000)
+* R 205c000
+***** Page fault! *****
+PTE found (VA=205c000 VPN=205c PA=5d000)
+* R 205d000
+***** Page fault! *****
+PTE found (VA=205d000 VPN=205d PA=5e000)
+* R 205e000
+***** Page fault! *****
+PTE found (VA=205e000 VPN=205e PA=5f000)
+* R 205f000
+***** Page fault! *****
+PTE found (VA=205f000 VPN=205f PA=60000)
+* W 2000000
+* W 2001000
+* W 2002000
+* W 2003000
+* W 2004000
+* W 2005000
+* W 2006000
+* W 2007000
+* W 2008000
+* W 2009000
+* W 200a000
+* W 200b000
+* W 200c000
+* W 200d000
+* W 200e000
+* W 200f000
+* W 2010000
+* W 2011000
+* W 2012000
+* W 2013000
+* W 2014000
+* W 2015000
+* W 2016000
+* W 2017000
+* W 2018000
+* W 2019000
+* W 201a000
+* W 201b000
+* W 201c000
+* W 201d000
+* W 201e000
+* W 201f000
+* R 2020000
+* R 2021000
+* R 2022000
+* R 2023000
+* R 2024000
+* R 2025000
+* R 2026000
+* R 2027000
+* R 2028000
+* R 2029000
+* R 202a000
+* R 202b000
+* R 202c000
+* R 202d000
+* R 202e000
+* R 202f000
+* R 2030000
+* R 2031000
+* R 2032000
+* R 2033000
+* R 2034000
+* R 2035000
+* R 2036000
+* R 2037000
+* R 2038000
+* R 2039000
+* R 203a000
+* R 203b000
+* R 203c000
+* R 203d000
+* R 203e000
+* R 203f000

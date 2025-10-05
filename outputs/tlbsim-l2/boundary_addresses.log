@@ -1,0 +1,52 @@
+[3] W DRAM[0]
+[103] R DRAM[1fff]
+[106] W DRAM[0]
+[206] R DRAM[2000]
+[207] W DRAM[2001]
+[208] R DRAM[2fff]
+[211] W DRAM[0]
+[311] W DRAM[3000]
+[314] W DRAM[0]
+[414] R DRAM[4000]
+[415] W DRAM[4123]
+[418] W DRAM[0]
+[518] R DRAM[5000]
+[519] W DRAM[5abc]
+Elapsed: 519 ns
+Total instructions executed: 9
+Total page faults: 5
+Total page evictions: 0
+Total TLB L1 hits: 4 (44.44%)
+Total TLB L2 hits: 0 (0.00%)
+Total TLB L1 invalidations: 0
+Total TLB L2 invalidations: 0
+=========== System Properties ===========
+Virtual address:       32 bits
+Page index:            12 bits
+DRAM address:          28 bits
+Disk address:          48 bits
+Virtual address space: 4294967296 B
+DRAM address space:    268435456 B
+Disk address space:    281474976710656 B
+Page size:             4096 B
+Total pages:           1048576
+=========================================
+* R fff
+***** Page fault! *****
+PTE found (VA=fff VPN=0 PA=1fff)
+* R 1000
+***** Page fault! *****
+PTE found (VA=1000 VPN=1 PA=2000)
+* W 1001
+* R 1fff
+* W 2000
+***** Page fault! *****
+PTE found (VA=2000 VPN=2 PA=3000)
+* R 7ffff000
+***** Page fault! *****
+PTE found (VA=7ffff000 VPN=7ffff PA=4000)
+* W 7ffff123
+* R fffff000
+***** Page fault! *****
+PTE found (VA=fffff000 VPN=fffff PA=5000)
+* W fffffabc
